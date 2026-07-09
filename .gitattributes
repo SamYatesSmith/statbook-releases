@@ -1,0 +1,4 @@
+# Trust artifacts: preserve bytes exactly on every checkout, on every OS.
+# Line-ending conversion would change manifest.json's bytes and its minisign
+# signature would no longer verify. Treat everything as byte-exact.
+* -text

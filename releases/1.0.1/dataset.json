@@ -1,0 +1,3346 @@
+{
+  "meta": {
+    "schema": "statbook-dataset/1",
+    "name": "Statbook",
+    "release_version": "1.0.1",
+    "compiled_at": "2026-07-09T13:12:31Z",
+    "attribution": [
+      "© Crown and database right. Derived from content available under the Open Government Licence v3.0 from legislation.gov.uk.",
+      "Contains public sector information licensed under the Open Government Licence v3.0."
+    ],
+    "figure_count": 31
+  },
+  "figures": [
+    {
+      "id": "employment.guarantee_pay.daily_rate",
+      "name": "Maximum guarantee payment per day (workless day)",
+      "category": "employment",
+      "jurisdiction": "GB",
+      "unit": "GBP/day",
+      "value_type": "money",
+      "source_type": "si",
+      "values": [
+        {
+          "value": "£41.00",
+          "effective_from": "2026-04-06",
+          "effective_to": null,
+          "status": "corroborated",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "https://www.legislation.gov.uk/uksi/2026/310/schedule/made (ERA 1996 s.31(1))",
+              "uri": "https://www.legislation.gov.uk/uksi/2026/310/schedule/made",
+              "retrieved": "2026-07-08T14:44:33Z",
+              "content_hash": "sha256:e38d02439befd69a9eae7bee9249fb1e7eaeda026295edb37fadf4d42abfd510",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2026/310/made/data.xml"
+            },
+            {
+              "role": "guidance",
+              "citation": "https://www.gov.uk/lay-offs-short-timeworking/pay",
+              "uri": "https://www.gov.uk/lay-offs-short-timeworking/pay",
+              "retrieved": "2026-07-08T14:44:33Z",
+              "content_hash": "sha256:e83af9a6f91b9cf616d0212f9cbcbc2bb125a2336c4beda7d60eb500bb2b04a8"
+            }
+          ],
+          "last_verified": "2026-07-08T14:44:33Z"
+        },
+        {
+          "value": "£39.00",
+          "effective_from": "2025-04-06",
+          "effective_to": "2026-04-05",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "SI 2025/348 Schedule (as made)",
+              "uri": "https://www.legislation.gov.uk/uksi/2025/348",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:45d41fa552d2691a387175add7b3843e8bc7cd54b0f4574d1bd4e9d65ac395c8",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2025/348/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£38.00",
+          "effective_from": "2024-04-06",
+          "effective_to": "2025-04-05",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "SI 2024/213 Schedule (as made)",
+              "uri": "https://www.legislation.gov.uk/uksi/2024/213",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:38ab560f4cb9f3102326d963ebc3ee52c1f3af8ef724b3c970f2ea1489556250",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2024/213/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£35.00",
+          "effective_from": "2023-04-06",
+          "effective_to": "2024-04-05",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "SI 2023/318 Schedule (as made)",
+              "uri": "https://www.legislation.gov.uk/uksi/2023/318",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:674563a47f49a6906ddff6ca214909e4a288999170890598696266a317539518",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2023/318/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£31.00",
+          "effective_from": "2022-04-06",
+          "effective_to": "2023-04-05",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "SI 2022/182 Schedule (as made)",
+              "uri": "https://www.legislation.gov.uk/uksi/2022/182",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:df3dfe66a0a303f67aa7e37cf3c6df55370d4048cb2c8dc181bbc13d444683f3",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2022/182/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£30.00",
+          "effective_from": "2021-04-06",
+          "effective_to": "2022-04-05",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "SI 2021/208 Schedule (as made)",
+              "uri": "https://www.legislation.gov.uk/uksi/2021/208",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:5a85ff948f8d765b8e2c333e724c9693f8f0d45262c131ffe422ce018fdf5baa",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2021/208/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£30.00",
+          "effective_from": "2020-04-06",
+          "effective_to": "2021-04-05",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "SI 2020/205 Schedule (as made)",
+              "uri": "https://www.legislation.gov.uk/uksi/2020/205",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:d3559002161a8e0cae1ca0b354aa29aa18ff09107ebae4ad5d4143ac39f16344",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2020/205/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£29.00",
+          "effective_from": "2019-04-06",
+          "effective_to": "2020-04-05",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "SI 2019/324 Schedule (as made)",
+              "uri": "https://www.legislation.gov.uk/uksi/2019/324",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:b1b97d7865c1a5c84a660e87a20f6e68576b2e16ed67a371efae5e0e1558c021",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2019/324/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£28.00",
+          "effective_from": "2018-04-06",
+          "effective_to": "2019-04-05",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "SI 2018/194 Schedule (as made)",
+              "uri": "https://www.legislation.gov.uk/uksi/2018/194",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:e26a1a52f790dfd6770741e12e8b441e237c5e9849ad9190a3a25f2ca15b03b7",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2018/194/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£27.00",
+          "effective_from": "2017-04-06",
+          "effective_to": "2018-04-05",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "SI 2017/175 Schedule (as made)",
+              "uri": "https://www.legislation.gov.uk/uksi/2017/175",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:9e7c1e9f7e4eb3a837ed4a82315aa910a334fac4b8e037f206654a5c4c4990ef",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2017/175/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£26.00",
+          "effective_from": "2016-04-06",
+          "effective_to": "2017-04-05",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "SI 2016/288 Schedule (as made)",
+              "uri": "https://www.legislation.gov.uk/uksi/2016/288",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:7302fe72358a6a8db90faeefe220cefab24602f8075c8830eb3195e469bbbb1e",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2016/288/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        }
+      ],
+      "derivation": null,
+      "invariants": [],
+      "scope_note": null,
+      "notes": null,
+      "record_version": 3
+    },
+    {
+      "id": "employment.guarantee_pay.max_days_per_quarter",
+      "name": "Statutory guarantee pay: maximum days in any 3 months",
+      "category": "employment",
+      "jurisdiction": "GB",
+      "unit": "days",
+      "value_type": "count",
+      "source_type": "act",
+      "values": [
+        {
+          "value": 5,
+          "effective_from": "1996-08-22",
+          "effective_to": null,
+          "status": "corroborated",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "Employment Rights Act 1996 s.31(2)–(3)",
+              "uri": "https://www.legislation.gov.uk/ukpga/1996/18/section/31",
+              "retrieved": "2026-07-08T14:44:33Z",
+              "content_hash": "sha256:b6ce52b269d1b10f17ec2a0189a54a98b05d3879169a4cddeb3c29c52555fdf8"
+            },
+            {
+              "role": "guidance",
+              "citation": "GOV.UK — Lay-offs and short-time working: guarantee pay ('5 days in any 3-month period')",
+              "uri": "https://www.gov.uk/lay-offs-short-timeworking/guarantee-pay",
+              "retrieved": "2026-07-08T14:44:33Z",
+              "content_hash": "sha256:e08d0b4f548ebaaa2f7ff42e25b2910aab65b635495a7848ff39799405ebbb70"
+            }
+          ],
+          "last_verified": "2026-07-08T14:44:33Z"
+        }
+      ],
+      "derivation": null,
+      "invariants": [],
+      "scope_note": "Ceiling of 5; actual entitlement is normal working days per week, up to 5, per rolling 3 months.",
+      "notes": "B-page observed still showing the £39 DAILY rate (superseded 2026-04-06 by £41) at retrieval — live specimen of B-lag (FM-21) on the adjacent figure; the 5-day figure itself corroborates.",
+      "record_version": 1
+    },
+    {
+      "id": "employment.insolvency.weekly_debt_limit",
+      "name": "Insolvency payments: weekly limit on a week's pay (National Insurance Fund)",
+      "category": "employment",
+      "jurisdiction": "GB",
+      "unit": "GBP/week",
+      "value_type": "money",
+      "source_type": "si",
+      "values": [
+        {
+          "value": "£751.00",
+          "effective_from": "2026-04-06",
+          "effective_to": null,
+          "status": "corroborated",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "SI 2026/310 Schedule (ERA 1996 s.186(1)): £719 → £751",
+              "uri": "https://www.legislation.gov.uk/uksi/2026/310/schedule/made",
+              "retrieved": "2026-07-08T14:44:33Z",
+              "content_hash": "sha256:e38d02439befd69a9eae7bee9249fb1e7eaeda026295edb37fadf4d42abfd510",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2026/310/made/data.xml"
+            },
+            {
+              "role": "guidance",
+              "citation": "GOV.UK — Explaining your redundancy payments ('weekly pay is capped at £751' from 6 Apr 2026)",
+              "uri": "https://www.gov.uk/guidance/explaining-your-redundancy-payments",
+              "retrieved": "2026-07-08T14:44:33Z",
+              "content_hash": "sha256:9123b60a972e84f593dd40731458cb7efb8d510d4c5fc6afe30747c6094ccf86"
+            }
+          ],
+          "last_verified": "2026-07-08T14:44:33Z"
+        }
+      ],
+      "derivation": null,
+      "invariants": [
+        "this == employment.redundancy.weekly_pay_cap"
+      ],
+      "scope_note": "Caps NIF payments per week for arrears of pay (max 8 weeks), holiday and notice pay on employer insolvency. Equal to, and moves with, the s.227 week's-pay cap.",
+      "notes": null,
+      "record_version": 1
+    },
+    {
+      "id": "employment.nmw.accommodation_offset",
+      "name": "Accommodation offset (living accommodation)",
+      "category": "employment",
+      "jurisdiction": "UK",
+      "unit": "GBP/day",
+      "value_type": "money",
+      "source_type": "si",
+      "values": [
+        {
+          "value": "£11.10",
+          "effective_from": "2026-04-01",
+          "effective_to": null,
+          "status": "corroborated-secondary-B",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "https://www.legislation.gov.uk/uksi/2026/357/regulation/2/made (NMW Regs 2015 reg.16(1))",
+              "uri": "https://www.legislation.gov.uk/uksi/2026/357/regulation/2/made",
+              "retrieved": "2026-07-08T14:44:33Z",
+              "content_hash": "sha256:a148eac49104abb1bf04b732e1c26e1cf14636404f8716d00e684ab992bdde77",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2026/357/made/data.xml"
+            },
+            {
+              "role": "guidance",
+              "citation": "gov.uk/national-minimum-wage-accommodation (not surfaced in fetch of gov.uk/national-minimum-wage-rates); secondary corroboration: personneltoday.com, bishopfleming.co.uk",
+              "uri": "https://www.gov.uk/national-minimum-wage-accommodation",
+              "retrieved": "2026-07-08T14:44:33Z",
+              "content_hash": "sha256:f68c0b3bec770fb5f295dddab34cc3ee6c03aa86e0e2edd89794fbfed692514a"
+            }
+          ],
+          "last_verified": "2026-07-08T14:44:33Z"
+        },
+        {
+          "value": "£10.66",
+          "effective_from": "2025-04-01",
+          "effective_to": "2026-03-31",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "NMW (Amendment) Regulations, SI 2025/401; provenance: as-made CLML read (A) + gov.uk historical table (B)",
+              "uri": "https://www.legislation.gov.uk/uksi/2025/401/made",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:22616cc40a8bb8e57b9bb9086479b005a41ef455f0de2cd2f55239863339450a",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2025/401/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£9.99",
+          "effective_from": "2024-04-01",
+          "effective_to": "2025-03-31",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "NMW (Amendment) Regulations, SI 2024/432; provenance: as-made CLML read (A) + gov.uk historical table (B)",
+              "uri": "https://www.legislation.gov.uk/uksi/2024/432/made",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:2567f283df56d80ebdfc9c69cda17917a76bf5039adbf02501fffe75b562cf0b",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2024/432/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£9.10",
+          "effective_from": "2023-04-01",
+          "effective_to": "2024-03-31",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "NMW (Amendment) Regulations, SI 2023/354; provenance: as-made CLML read (A) + gov.uk historical table (B)",
+              "uri": "https://www.legislation.gov.uk/uksi/2023/354",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:14eb623154dacf36035434426badfa2e6bcacca71086238b617a84c3769dce48",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2023/354/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£8.70",
+          "effective_from": "2022-04-01",
+          "effective_to": "2023-03-31",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "NMW (Amendment) Regulations, SI 2022/382; provenance: as-made CLML read (A) + gov.uk historical table (B)",
+              "uri": "https://www.legislation.gov.uk/uksi/2022/382",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:463ff4e71f8d7d256a924dfb6defd5b22364cc473b7c491cd276e368530d0b79",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2022/382/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£8.36",
+          "effective_from": "2021-04-01",
+          "effective_to": "2022-03-31",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "NMW (Amendment) Regulations, SI 2021/329; provenance: as-made CLML read (A) + gov.uk historical table (B)",
+              "uri": "https://www.legislation.gov.uk/uksi/2021/329/made",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:bb5ed8407b3a2095817a78a9e6efe9ad0aeb285664a4a66bc3f6e720a6d3d3c1",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2021/329/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£8.20",
+          "effective_from": "2020-04-01",
+          "effective_to": "2021-03-31",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "NMW (Amendment) Regulations, SI 2020/338; provenance: as-made CLML read (A) + gov.uk historical table (B)",
+              "uri": "https://www.legislation.gov.uk/uksi/2020/338/made",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:81302b9397c45a9acfecd55c36e92531531398d00b7ba83f8dbf0ff1ba837a57",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2020/338/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£7.55",
+          "effective_from": "2019-04-01",
+          "effective_to": "2020-03-31",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "NMW (Amendment) Regulations, SI 2019/603; provenance: as-made CLML read (A) + gov.uk historical table (B)",
+              "uri": "https://www.legislation.gov.uk/uksi/2019/603",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:ca58eeb1c70c90b5b14d888bd5848bc5f6a8146bc1a57bc090e94b0821ec9753",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2019/603/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£7.00",
+          "effective_from": "2018-04-01",
+          "effective_to": "2019-03-31",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "NMW (Amendment) Regulations, SI 2018/455; provenance: as-made CLML read (A) + gov.uk historical table (B)",
+              "uri": "https://www.legislation.gov.uk/uksi/2018/455",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:d6b29189c5495fdb3ec3ed0b9951315b8484d4c3d765bcc9aa198289b9834b43",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2018/455/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£6.40",
+          "effective_from": "2017-04-01",
+          "effective_to": "2018-03-31",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "NMW (Amendment) Regulations, SI 2017/465; provenance: as-made CLML read (A) + gov.uk historical table (B)",
+              "uri": "https://www.legislation.gov.uk/uksi/2017/465",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:d24bc1e78d19477a9c1bcc198adfa7f97732a2858c65e7e593b207e100534542",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2017/465/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£6.00",
+          "effective_from": "2016-10-01",
+          "effective_to": "2017-03-31",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "NMW (Amendment) Regulations, SI 2016/953 — single_source_A; provenance: as-made CLML read (A); gov.uk historical tables do not extend this far back — A-only",
+              "uri": "https://www.legislation.gov.uk/uksi/2016/953/made",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:d42171e58b1c0489c5bb5b959daf04cc59e6197f49cc0b2330f9ef0119056eb8",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2016/953/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£5.35",
+          "effective_from": "2016-04-01",
+          "effective_to": "2016-09-30",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "NMW (Amendment) Regulations, SI 2016/953 — carried-over 2015 rate; confirmed only via SI 2016/953 explanatory text — single_source_A; provenance: as-made CLML read (A); gov.uk historical tables do not extend this far back — A-only",
+              "uri": "https://www.legislation.gov.uk/uksi/2016/953/made",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:d42171e58b1c0489c5bb5b959daf04cc59e6197f49cc0b2330f9ef0119056eb8",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2016/953/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        }
+      ],
+      "derivation": null,
+      "invariants": [],
+      "scope_note": null,
+      "notes": null,
+      "record_version": 4
+    },
+    {
+      "id": "employment.nmw.apprentice",
+      "name": "Apprentice rate (under 19, or 19+ in first year)",
+      "category": "employment",
+      "jurisdiction": "UK",
+      "unit": "GBP/hour",
+      "value_type": "money",
+      "source_type": "si",
+      "values": [
+        {
+          "value": "£8.00",
+          "effective_from": "2026-04-01",
+          "effective_to": null,
+          "status": "corroborated",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "https://www.legislation.gov.uk/uksi/2026/357/regulation/2/made (reg.4A(d))",
+              "uri": "https://www.legislation.gov.uk/uksi/2026/357/regulation/2/made",
+              "retrieved": "2026-07-08T14:44:33Z",
+              "content_hash": "sha256:a148eac49104abb1bf04b732e1c26e1cf14636404f8716d00e684ab992bdde77",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2026/357/made/data.xml"
+            },
+            {
+              "role": "guidance",
+              "citation": "https://www.gov.uk/national-minimum-wage-rates",
+              "uri": "https://www.gov.uk/national-minimum-wage-rates",
+              "retrieved": "2026-07-08T14:44:33Z",
+              "content_hash": "sha256:a67b7d1c2b4b54335cd4aad7158521952d73a12792c0a2dc0ad2fed5d5cbb942"
+            }
+          ],
+          "last_verified": "2026-07-08T14:44:33Z"
+        },
+        {
+          "value": "£7.55",
+          "effective_from": "2025-04-01",
+          "effective_to": "2026-03-31",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "NMW (Amendment) Regulations, SI 2025/401; provenance: as-made CLML read (A) + gov.uk historical table (B)",
+              "uri": "https://www.legislation.gov.uk/uksi/2025/401/made",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:22616cc40a8bb8e57b9bb9086479b005a41ef455f0de2cd2f55239863339450a",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2025/401/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£6.40",
+          "effective_from": "2024-04-01",
+          "effective_to": "2025-03-31",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "NMW (Amendment) Regulations, SI 2024/432; provenance: as-made CLML read (A) + gov.uk historical table (B)",
+              "uri": "https://www.legislation.gov.uk/uksi/2024/432/made",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:2567f283df56d80ebdfc9c69cda17917a76bf5039adbf02501fffe75b562cf0b",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2024/432/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£5.28",
+          "effective_from": "2023-04-01",
+          "effective_to": "2024-03-31",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "NMW (Amendment) Regulations, SI 2023/354; provenance: as-made CLML read (A) + gov.uk historical table (B)",
+              "uri": "https://www.legislation.gov.uk/uksi/2023/354",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:14eb623154dacf36035434426badfa2e6bcacca71086238b617a84c3769dce48",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2023/354/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£4.81",
+          "effective_from": "2022-04-01",
+          "effective_to": "2023-03-31",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "NMW (Amendment) Regulations, SI 2022/382; provenance: as-made CLML read (A) + gov.uk historical table (B)",
+              "uri": "https://www.legislation.gov.uk/uksi/2022/382",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:463ff4e71f8d7d256a924dfb6defd5b22364cc473b7c491cd276e368530d0b79",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2022/382/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£4.30",
+          "effective_from": "2021-04-01",
+          "effective_to": "2022-03-31",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "NMW (Amendment) Regulations, SI 2021/329; provenance: as-made CLML read (A) + gov.uk historical table (B)",
+              "uri": "https://www.legislation.gov.uk/uksi/2021/329/made",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:bb5ed8407b3a2095817a78a9e6efe9ad0aeb285664a4a66bc3f6e720a6d3d3c1",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2021/329/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£4.15",
+          "effective_from": "2020-04-01",
+          "effective_to": "2021-03-31",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "NMW (Amendment) Regulations, SI 2020/338; provenance: as-made CLML read (A) + gov.uk historical table (B)",
+              "uri": "https://www.legislation.gov.uk/uksi/2020/338/made",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:81302b9397c45a9acfecd55c36e92531531398d00b7ba83f8dbf0ff1ba837a57",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2020/338/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£3.90",
+          "effective_from": "2019-04-01",
+          "effective_to": "2020-03-31",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "NMW (Amendment) Regulations, SI 2019/603; provenance: as-made CLML read (A) + gov.uk historical table (B)",
+              "uri": "https://www.legislation.gov.uk/uksi/2019/603",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:ca58eeb1c70c90b5b14d888bd5848bc5f6a8146bc1a57bc090e94b0821ec9753",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2019/603/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£3.70",
+          "effective_from": "2018-04-01",
+          "effective_to": "2019-03-31",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "NMW (Amendment) Regulations, SI 2018/455; provenance: as-made CLML read (A); gov.uk historical tables do not extend this far back — A-only",
+              "uri": "https://www.legislation.gov.uk/uksi/2018/455",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:d6b29189c5495fdb3ec3ed0b9951315b8484d4c3d765bcc9aa198289b9834b43",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2018/455/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£3.50",
+          "effective_from": "2017-04-01",
+          "effective_to": "2018-03-31",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "NMW (Amendment) Regulations, SI 2017/465; provenance: as-made CLML read (A); gov.uk historical tables do not extend this far back — A-only",
+              "uri": "https://www.legislation.gov.uk/uksi/2017/465",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:d24bc1e78d19477a9c1bcc198adfa7f97732a2858c65e7e593b207e100534542",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2017/465/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£3.40",
+          "effective_from": "2016-10-01",
+          "effective_to": "2017-03-31",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "NMW (Amendment) Regulations, SI 2016/953; provenance: as-made CLML read (A); gov.uk historical tables do not extend this far back — A-only",
+              "uri": "https://www.legislation.gov.uk/uksi/2016/953/made",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:d42171e58b1c0489c5bb5b959daf04cc59e6197f49cc0b2330f9ef0119056eb8",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2016/953/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£3.30",
+          "effective_from": "2016-04-01",
+          "effective_to": "2016-09-30",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "NMW (Amendment) Regulations, SI 2016/68; provenance: as-made CLML read (A); gov.uk historical tables do not extend this far back — A-only",
+              "uri": "https://www.legislation.gov.uk/uksi/2016/68/made",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:f3786620f08a403ee3d732415a186907627e34ed77a028d8d336c2b311b5531d",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2016/68/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        }
+      ],
+      "derivation": null,
+      "invariants": [],
+      "scope_note": null,
+      "notes": null,
+      "record_version": 4
+    },
+    {
+      "id": "employment.nmw.band_16_17",
+      "name": "Minimum wage, 16 to 17 (under-18 rate)",
+      "category": "employment",
+      "jurisdiction": "UK",
+      "unit": "GBP/hour",
+      "value_type": "money",
+      "source_type": "si",
+      "values": [
+        {
+          "value": "£8.00",
+          "effective_from": "2026-04-01",
+          "effective_to": null,
+          "status": "corroborated",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "https://www.legislation.gov.uk/uksi/2026/357/regulation/2/made (reg.4A(c))",
+              "uri": "https://www.legislation.gov.uk/uksi/2026/357/regulation/2/made",
+              "retrieved": "2026-07-08T14:44:33Z",
+              "content_hash": "sha256:a148eac49104abb1bf04b732e1c26e1cf14636404f8716d00e684ab992bdde77",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2026/357/made/data.xml"
+            },
+            {
+              "role": "guidance",
+              "citation": "https://www.gov.uk/national-minimum-wage-rates",
+              "uri": "https://www.gov.uk/national-minimum-wage-rates",
+              "retrieved": "2026-07-08T14:44:33Z",
+              "content_hash": "sha256:a67b7d1c2b4b54335cd4aad7158521952d73a12792c0a2dc0ad2fed5d5cbb942"
+            }
+          ],
+          "last_verified": "2026-07-08T14:44:33Z"
+        },
+        {
+          "value": "£7.55",
+          "effective_from": "2025-04-01",
+          "effective_to": "2026-03-31",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "NMW (Amendment) Regulations, SI 2025/401; provenance: as-made CLML read (A) + gov.uk historical table (B)",
+              "uri": "https://www.legislation.gov.uk/uksi/2025/401/made",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:22616cc40a8bb8e57b9bb9086479b005a41ef455f0de2cd2f55239863339450a",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2025/401/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£6.40",
+          "effective_from": "2024-04-01",
+          "effective_to": "2025-03-31",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "NMW (Amendment) Regulations, SI 2024/432; provenance: as-made CLML read (A) + gov.uk historical table (B)",
+              "uri": "https://www.legislation.gov.uk/uksi/2024/432/made",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:2567f283df56d80ebdfc9c69cda17917a76bf5039adbf02501fffe75b562cf0b",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2024/432/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£5.28",
+          "effective_from": "2023-04-01",
+          "effective_to": "2024-03-31",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "NMW (Amendment) Regulations, SI 2023/354; provenance: as-made CLML read (A) + gov.uk historical table (B)",
+              "uri": "https://www.legislation.gov.uk/uksi/2023/354",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:14eb623154dacf36035434426badfa2e6bcacca71086238b617a84c3769dce48",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2023/354/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£4.81",
+          "effective_from": "2022-04-01",
+          "effective_to": "2023-03-31",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "NMW (Amendment) Regulations, SI 2022/382; provenance: as-made CLML read (A) + gov.uk historical table (B)",
+              "uri": "https://www.legislation.gov.uk/uksi/2022/382",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:463ff4e71f8d7d256a924dfb6defd5b22364cc473b7c491cd276e368530d0b79",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2022/382/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£4.62",
+          "effective_from": "2021-04-01",
+          "effective_to": "2022-03-31",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "NMW (Amendment) Regulations, SI 2021/329; provenance: as-made CLML read (A) + gov.uk historical table (B)",
+              "uri": "https://www.legislation.gov.uk/uksi/2021/329/made",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:bb5ed8407b3a2095817a78a9e6efe9ad0aeb285664a4a66bc3f6e720a6d3d3c1",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2021/329/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£4.55",
+          "effective_from": "2020-04-01",
+          "effective_to": "2021-03-31",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "NMW (Amendment) Regulations, SI 2020/338; provenance: as-made CLML read (A) + gov.uk historical table (B)",
+              "uri": "https://www.legislation.gov.uk/uksi/2020/338/made",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:81302b9397c45a9acfecd55c36e92531531398d00b7ba83f8dbf0ff1ba837a57",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2020/338/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£4.35",
+          "effective_from": "2019-04-01",
+          "effective_to": "2020-03-31",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "NMW (Amendment) Regulations, SI 2019/603; provenance: as-made CLML read (A) + gov.uk historical table (B)",
+              "uri": "https://www.legislation.gov.uk/uksi/2019/603",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:ca58eeb1c70c90b5b14d888bd5848bc5f6a8146bc1a57bc090e94b0821ec9753",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2019/603/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£4.20",
+          "effective_from": "2018-04-01",
+          "effective_to": "2019-03-31",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "NMW (Amendment) Regulations, SI 2018/455; provenance: as-made CLML read (A); gov.uk historical tables do not extend this far back — A-only",
+              "uri": "https://www.legislation.gov.uk/uksi/2018/455",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:d6b29189c5495fdb3ec3ed0b9951315b8484d4c3d765bcc9aa198289b9834b43",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2018/455/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£4.05",
+          "effective_from": "2017-04-01",
+          "effective_to": "2018-03-31",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "NMW (Amendment) Regulations, SI 2017/465; provenance: as-made CLML read (A); gov.uk historical tables do not extend this far back — A-only",
+              "uri": "https://www.legislation.gov.uk/uksi/2017/465",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:d24bc1e78d19477a9c1bcc198adfa7f97732a2858c65e7e593b207e100534542",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2017/465/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£4.00",
+          "effective_from": "2016-10-01",
+          "effective_to": "2017-03-31",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "NMW (Amendment) Regulations, SI 2016/953; provenance: as-made CLML read (A); gov.uk historical tables do not extend this far back — A-only",
+              "uri": "https://www.legislation.gov.uk/uksi/2016/953/made",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:d42171e58b1c0489c5bb5b959daf04cc59e6197f49cc0b2330f9ef0119056eb8",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2016/953/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£3.87",
+          "effective_from": "2016-04-01",
+          "effective_to": "2016-09-30",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "NMW (Amendment) Regulations, SI 2016/68; provenance: as-made CLML read (A); gov.uk historical tables do not extend this far back — A-only",
+              "uri": "https://www.legislation.gov.uk/uksi/2016/68/made",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:f3786620f08a403ee3d732415a186907627e34ed77a028d8d336c2b311b5531d",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2016/68/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        }
+      ],
+      "derivation": null,
+      "invariants": [],
+      "scope_note": null,
+      "notes": null,
+      "record_version": 4
+    },
+    {
+      "id": "employment.nmw.band_18_20",
+      "name": "Minimum wage, 18 to 20",
+      "category": "employment",
+      "jurisdiction": "UK",
+      "unit": "GBP/hour",
+      "value_type": "money",
+      "source_type": "si",
+      "values": [
+        {
+          "value": "£10.85",
+          "effective_from": "2026-04-01",
+          "effective_to": null,
+          "status": "corroborated",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "https://www.legislation.gov.uk/uksi/2026/357/regulation/2/made (reg.4A(b))",
+              "uri": "https://www.legislation.gov.uk/uksi/2026/357/regulation/2/made",
+              "retrieved": "2026-07-08T14:44:33Z",
+              "content_hash": "sha256:a148eac49104abb1bf04b732e1c26e1cf14636404f8716d00e684ab992bdde77",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2026/357/made/data.xml"
+            },
+            {
+              "role": "guidance",
+              "citation": "https://www.gov.uk/national-minimum-wage-rates",
+              "uri": "https://www.gov.uk/national-minimum-wage-rates",
+              "retrieved": "2026-07-08T14:44:33Z",
+              "content_hash": "sha256:a67b7d1c2b4b54335cd4aad7158521952d73a12792c0a2dc0ad2fed5d5cbb942"
+            }
+          ],
+          "last_verified": "2026-07-08T14:44:33Z"
+        },
+        {
+          "value": "£10.00",
+          "effective_from": "2025-04-01",
+          "effective_to": "2026-03-31",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "NMW (Amendment) Regulations, SI 2025/401; provenance: as-made CLML read (A) + gov.uk historical table (B)",
+              "uri": "https://www.legislation.gov.uk/uksi/2025/401/made",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:22616cc40a8bb8e57b9bb9086479b005a41ef455f0de2cd2f55239863339450a",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2025/401/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£8.60",
+          "effective_from": "2024-04-01",
+          "effective_to": "2025-03-31",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "NMW (Amendment) Regulations, SI 2024/432; provenance: as-made CLML read (A) + gov.uk historical table (B)",
+              "uri": "https://www.legislation.gov.uk/uksi/2024/432/made",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:2567f283df56d80ebdfc9c69cda17917a76bf5039adbf02501fffe75b562cf0b",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2024/432/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£7.49",
+          "effective_from": "2023-04-01",
+          "effective_to": "2024-03-31",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "NMW (Amendment) Regulations, SI 2023/354; provenance: as-made CLML read (A) + gov.uk historical table (B)",
+              "uri": "https://www.legislation.gov.uk/uksi/2023/354",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:14eb623154dacf36035434426badfa2e6bcacca71086238b617a84c3769dce48",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2023/354/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£6.83",
+          "effective_from": "2022-04-01",
+          "effective_to": "2023-03-31",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "NMW (Amendment) Regulations, SI 2022/382; provenance: as-made CLML read (A) + gov.uk historical table (B)",
+              "uri": "https://www.legislation.gov.uk/uksi/2022/382",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:463ff4e71f8d7d256a924dfb6defd5b22364cc473b7c491cd276e368530d0b79",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2022/382/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£6.56",
+          "effective_from": "2021-04-01",
+          "effective_to": "2022-03-31",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "NMW (Amendment) Regulations, SI 2021/329; provenance: as-made CLML read (A) + gov.uk historical table (B)",
+              "uri": "https://www.legislation.gov.uk/uksi/2021/329/made",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:bb5ed8407b3a2095817a78a9e6efe9ad0aeb285664a4a66bc3f6e720a6d3d3c1",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2021/329/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£6.45",
+          "effective_from": "2020-04-01",
+          "effective_to": "2021-03-31",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "NMW (Amendment) Regulations, SI 2020/338; provenance: as-made CLML read (A) + gov.uk historical table (B)",
+              "uri": "https://www.legislation.gov.uk/uksi/2020/338/made",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:81302b9397c45a9acfecd55c36e92531531398d00b7ba83f8dbf0ff1ba837a57",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2020/338/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£6.15",
+          "effective_from": "2019-04-01",
+          "effective_to": "2020-03-31",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "NMW (Amendment) Regulations, SI 2019/603; provenance: as-made CLML read (A) + gov.uk historical table (B)",
+              "uri": "https://www.legislation.gov.uk/uksi/2019/603",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:ca58eeb1c70c90b5b14d888bd5848bc5f6a8146bc1a57bc090e94b0821ec9753",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2019/603/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£5.90",
+          "effective_from": "2018-04-01",
+          "effective_to": "2019-03-31",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "NMW (Amendment) Regulations, SI 2018/455; provenance: as-made CLML read (A); gov.uk historical tables do not extend this far back — A-only",
+              "uri": "https://www.legislation.gov.uk/uksi/2018/455",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:d6b29189c5495fdb3ec3ed0b9951315b8484d4c3d765bcc9aa198289b9834b43",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2018/455/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£5.60",
+          "effective_from": "2017-04-01",
+          "effective_to": "2018-03-31",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "NMW (Amendment) Regulations, SI 2017/465; provenance: as-made CLML read (A); gov.uk historical tables do not extend this far back — A-only",
+              "uri": "https://www.legislation.gov.uk/uksi/2017/465",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:d24bc1e78d19477a9c1bcc198adfa7f97732a2858c65e7e593b207e100534542",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2017/465/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£5.55",
+          "effective_from": "2016-10-01",
+          "effective_to": "2017-03-31",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "NMW (Amendment) Regulations, SI 2016/953 — final October uprating cycle; provenance: as-made CLML read (A); gov.uk historical tables do not extend this far back — A-only",
+              "uri": "https://www.legislation.gov.uk/uksi/2016/953/made",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:d42171e58b1c0489c5bb5b959daf04cc59e6197f49cc0b2330f9ef0119056eb8",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2016/953/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£5.30",
+          "effective_from": "2016-04-01",
+          "effective_to": "2016-09-30",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "NMW (Amendment) Regulations, SI 2016/68; provenance: as-made CLML read (A); gov.uk historical tables do not extend this far back — A-only",
+              "uri": "https://www.legislation.gov.uk/uksi/2016/68/made",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:f3786620f08a403ee3d732415a186907627e34ed77a028d8d336c2b311b5531d",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2016/68/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        }
+      ],
+      "derivation": null,
+      "invariants": [],
+      "scope_note": null,
+      "notes": null,
+      "record_version": 4
+    },
+    {
+      "id": "employment.nmw.band_21_22",
+      "name": "NMW: 21-24 / 21-22 age band (abolished 2024)",
+      "category": "employment",
+      "jurisdiction": "UK",
+      "unit": "GBP/hour",
+      "value_type": "money",
+      "source_type": "si",
+      "values": [
+        {
+          "value": "£10.18",
+          "effective_from": "2023-04-01",
+          "effective_to": "2024-03-31",
+          "status": "repealed",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "NMW (Amendment) Regulations, SI 2023/354 — final year; band abolished by SI 2024/432; provenance: as-made CLML read (A) + gov.uk historical table (B)",
+              "uri": "https://www.legislation.gov.uk/uksi/2023/354",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:14eb623154dacf36035434426badfa2e6bcacca71086238b617a84c3769dce48",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2023/354/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£9.18",
+          "effective_from": "2022-04-01",
+          "effective_to": "2023-03-31",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "NMW (Amendment) Regulations, SI 2022/382 — band = 21-22; provenance: as-made CLML read (A) + gov.uk historical table (B)",
+              "uri": "https://www.legislation.gov.uk/uksi/2022/382",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:463ff4e71f8d7d256a924dfb6defd5b22364cc473b7c491cd276e368530d0b79",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2022/382/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£8.36",
+          "effective_from": "2021-04-01",
+          "effective_to": "2022-03-31",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "NMW (Amendment) Regulations, SI 2021/329 — band narrows to 21-22 (23+ joins NLW); provenance: as-made CLML read (A) + gov.uk historical table (B)",
+              "uri": "https://www.legislation.gov.uk/uksi/2021/329/made",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:bb5ed8407b3a2095817a78a9e6efe9ad0aeb285664a4a66bc3f6e720a6d3d3c1",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2021/329/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£8.20",
+          "effective_from": "2020-04-01",
+          "effective_to": "2021-03-31",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "NMW (Amendment) Regulations, SI 2020/338 — band = 21-24; provenance: as-made CLML read (A) + gov.uk historical table (B)",
+              "uri": "https://www.legislation.gov.uk/uksi/2020/338/made",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:81302b9397c45a9acfecd55c36e92531531398d00b7ba83f8dbf0ff1ba837a57",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2020/338/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£7.70",
+          "effective_from": "2019-04-01",
+          "effective_to": "2020-03-31",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "NMW (Amendment) Regulations, SI 2019/603 — band = 21-24; provenance: as-made CLML read (A) + gov.uk historical table (B)",
+              "uri": "https://www.legislation.gov.uk/uksi/2019/603",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:ca58eeb1c70c90b5b14d888bd5848bc5f6a8146bc1a57bc090e94b0821ec9753",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2019/603/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£7.38",
+          "effective_from": "2018-04-01",
+          "effective_to": "2019-03-31",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "NMW (Amendment) Regulations, SI 2018/455 — band = 21-24; provenance: as-made CLML read (A); gov.uk historical tables do not extend this far back — A-only",
+              "uri": "https://www.legislation.gov.uk/uksi/2018/455",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:d6b29189c5495fdb3ec3ed0b9951315b8484d4c3d765bcc9aa198289b9834b43",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2018/455/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£7.05",
+          "effective_from": "2017-04-01",
+          "effective_to": "2018-03-31",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "NMW (Amendment) Regulations, SI 2017/465 — band = 21-24; provenance: as-made CLML read (A); gov.uk historical tables do not extend this far back — A-only",
+              "uri": "https://www.legislation.gov.uk/uksi/2017/465",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:d24bc1e78d19477a9c1bcc198adfa7f97732a2858c65e7e593b207e100534542",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2017/465/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£6.95",
+          "effective_from": "2016-10-01",
+          "effective_to": "2017-03-31",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "NMW (Amendment) Regulations, SI 2016/953 — band = 21-24; provenance: as-made CLML read (A); gov.uk historical tables do not extend this far back — A-only",
+              "uri": "https://www.legislation.gov.uk/uksi/2016/953/made",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:d42171e58b1c0489c5bb5b959daf04cc59e6197f49cc0b2330f9ef0119056eb8",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2016/953/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£6.70",
+          "effective_from": "2016-04-01",
+          "effective_to": "2016-09-30",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "NMW (Amendment) Regulations, SI 2016/68 — band = 21-24; provenance: as-made CLML read (A); gov.uk historical tables do not extend this far back — A-only",
+              "uri": "https://www.legislation.gov.uk/uksi/2016/68/made",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:f3786620f08a403ee3d732415a186907627e34ed77a028d8d336c2b311b5531d",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2016/68/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        }
+      ],
+      "derivation": null,
+      "invariants": [],
+      "scope_note": "Historical band: 21-24 until 2021-03-31, narrowed to 21-22 when 23+ joined the NLW (SI 2021/329), abolished 2024-04-01 when 21+ joined the NLW (SI 2024/432). Terminal status repealed; excluded from band-monotonicity invariants per spec §3.1. Needed for as-of queries 2016-2024.",
+      "notes": null,
+      "record_version": 2
+    },
+    {
+      "id": "employment.nmw.nlw_21_over",
+      "name": "National Living Wage (21 and over)",
+      "category": "employment",
+      "jurisdiction": "UK",
+      "unit": "GBP/hour",
+      "value_type": "money",
+      "source_type": "si",
+      "values": [
+        {
+          "value": "£12.71",
+          "effective_from": "2026-04-01",
+          "effective_to": null,
+          "status": "corroborated",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "https://www.legislation.gov.uk/uksi/2026/357/regulation/2/made (NMW Regs 2015 reg.4; SI 2026/357)",
+              "uri": "https://www.legislation.gov.uk/uksi/2026/357/regulation/2/made",
+              "retrieved": "2026-07-08T14:44:33Z",
+              "content_hash": "sha256:a148eac49104abb1bf04b732e1c26e1cf14636404f8716d00e684ab992bdde77",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2026/357/made/data.xml"
+            },
+            {
+              "role": "guidance",
+              "citation": "https://www.gov.uk/national-minimum-wage-rates",
+              "uri": "https://www.gov.uk/national-minimum-wage-rates",
+              "retrieved": "2026-07-08T14:44:33Z",
+              "content_hash": "sha256:a67b7d1c2b4b54335cd4aad7158521952d73a12792c0a2dc0ad2fed5d5cbb942"
+            }
+          ],
+          "last_verified": "2026-07-08T14:44:33Z"
+        },
+        {
+          "value": "£12.21",
+          "effective_from": "2025-04-01",
+          "effective_to": "2026-03-31",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "NMW (Amendment) Regulations, SI 2025/401 — age 21+; provenance: as-made CLML read (A) + gov.uk historical table (B)",
+              "uri": "https://www.legislation.gov.uk/uksi/2025/401/made",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:22616cc40a8bb8e57b9bb9086479b005a41ef455f0de2cd2f55239863339450a",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2025/401/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£11.44",
+          "effective_from": "2024-04-01",
+          "effective_to": "2025-03-31",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "NMW (Amendment) Regulations, SI 2024/432 — age threshold 23 -> 21; 21-22 band abolished; provenance: as-made CLML read (A) + gov.uk historical table (B)",
+              "uri": "https://www.legislation.gov.uk/uksi/2024/432/made",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:2567f283df56d80ebdfc9c69cda17917a76bf5039adbf02501fffe75b562cf0b",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2024/432/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£10.42",
+          "effective_from": "2023-04-01",
+          "effective_to": "2024-03-31",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "NMW (Amendment) Regulations, SI 2023/354 — age 23+; provenance: as-made CLML read (A) + gov.uk historical table (B)",
+              "uri": "https://www.legislation.gov.uk/uksi/2023/354",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:14eb623154dacf36035434426badfa2e6bcacca71086238b617a84c3769dce48",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2023/354/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£9.50",
+          "effective_from": "2022-04-01",
+          "effective_to": "2023-03-31",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "NMW (Amendment) Regulations, SI 2022/382 — age 23+; provenance: as-made CLML read (A) + gov.uk historical table (B)",
+              "uri": "https://www.legislation.gov.uk/uksi/2022/382",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:463ff4e71f8d7d256a924dfb6defd5b22364cc473b7c491cd276e368530d0b79",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2022/382/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£8.91",
+          "effective_from": "2021-04-01",
+          "effective_to": "2022-03-31",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "NMW (Amendment) Regulations, SI 2021/329 — age threshold 25 -> 23; provenance: as-made CLML read (A) + gov.uk historical table (B)",
+              "uri": "https://www.legislation.gov.uk/uksi/2021/329/made",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:bb5ed8407b3a2095817a78a9e6efe9ad0aeb285664a4a66bc3f6e720a6d3d3c1",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2021/329/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£8.72",
+          "effective_from": "2020-04-01",
+          "effective_to": "2021-03-31",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "NMW (Amendment) Regulations, SI 2020/338 — age 25+; provenance: as-made CLML read (A) + gov.uk historical table (B)",
+              "uri": "https://www.legislation.gov.uk/uksi/2020/338/made",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:81302b9397c45a9acfecd55c36e92531531398d00b7ba83f8dbf0ff1ba837a57",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2020/338/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£8.21",
+          "effective_from": "2019-04-01",
+          "effective_to": "2020-03-31",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "NMW (Amendment) Regulations, SI 2019/603 — age 25+; provenance: as-made CLML read (A) + gov.uk historical table (B)",
+              "uri": "https://www.legislation.gov.uk/uksi/2019/603",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:ca58eeb1c70c90b5b14d888bd5848bc5f6a8146bc1a57bc090e94b0821ec9753",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2019/603/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£7.83",
+          "effective_from": "2018-04-01",
+          "effective_to": "2019-03-31",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "NMW (Amendment) Regulations, SI 2018/455 — age 25+; provenance: as-made CLML read (A); gov.uk historical tables do not extend this far back — A-only",
+              "uri": "https://www.legislation.gov.uk/uksi/2018/455",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:d6b29189c5495fdb3ec3ed0b9951315b8484d4c3d765bcc9aa198289b9834b43",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2018/455/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£7.50",
+          "effective_from": "2017-04-01",
+          "effective_to": "2018-03-31",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "NMW (Amendment) Regulations, SI 2017/465 — age 25+; provenance: as-made CLML read (A); gov.uk historical tables do not extend this far back — A-only",
+              "uri": "https://www.legislation.gov.uk/uksi/2017/465",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:d24bc1e78d19477a9c1bcc198adfa7f97732a2858c65e7e593b207e100534542",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2017/465/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£7.20",
+          "effective_from": "2016-04-01",
+          "effective_to": "2017-03-31",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "NMW (Amendment) Regulations, SI 2016/68 — NLW introduced, age 25+; provenance: as-made CLML read (A); gov.uk historical tables do not extend this far back — A-only",
+              "uri": "https://www.legislation.gov.uk/uksi/2016/68/made",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:f3786620f08a403ee3d732415a186907627e34ed77a028d8d336c2b311b5531d",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2016/68/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        }
+      ],
+      "derivation": null,
+      "invariants": [],
+      "scope_note": "NLW age threshold has moved: 25+ (2016-04-01), 23+ (2021-04-01, SI 2021/329), 21+ (2024-04-01, SI 2024/432). Historical values apply to the threshold in force at the time — see per-entry citations. For 21-22-year-olds before 2024-04-01 see employment.nmw.band_21_22 (repealed).",
+      "notes": null,
+      "record_version": 4
+    },
+    {
+      "id": "employment.notice.employee_minimum",
+      "name": "Minimum notice to be given by an employee",
+      "category": "employment",
+      "jurisdiction": "GB",
+      "unit": "weeks",
+      "value_type": "count",
+      "source_type": "act",
+      "values": [
+        {
+          "value": 1,
+          "effective_from": "1996-08-22",
+          "effective_to": null,
+          "status": "corroborated",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "Employment Rights Act 1996 s.86(2)",
+              "uri": "https://www.legislation.gov.uk/ukpga/1996/18/section/86",
+              "retrieved": "2026-07-08T14:44:33Z",
+              "content_hash": "sha256:b179ee96e2f2e26940376fff4800b396d72e0d445cb079fab7455ba372979e17"
+            },
+            {
+              "role": "guidance",
+              "citation": "GOV.UK — Handing in your notice: giving notice ('at least a week's notice if you've been in your job for more than a month')",
+              "uri": "https://www.gov.uk/handing-in-your-notice/giving-notice",
+              "retrieved": "2026-07-08T14:44:33Z",
+              "content_hash": "sha256:9b6ca83a0fabc4b7995f75ac54b29ab21ab4b4976d8dd71f168395250c710f56"
+            }
+          ],
+          "last_verified": "2026-07-08T14:44:33Z"
+        }
+      ],
+      "derivation": null,
+      "invariants": [],
+      "scope_note": "Flat 1 week once ≥1 month's continuous employment; does NOT scale with service (unlike the employer minimum). Contract may require more.",
+      "notes": null,
+      "record_version": 1
+    },
+    {
+      "id": "employment.notice.employer_minimum",
+      "name": "Minimum notice to be given by an employer",
+      "category": "employment",
+      "jurisdiction": "GB",
+      "unit": "weeks",
+      "value_type": "banded_table",
+      "source_type": "act",
+      "values": [
+        {
+          "value": [
+            {
+              "band": "1 month to 2 years' service",
+              "notice_weeks": 1
+            },
+            {
+              "band": "2 to 12 years' service",
+              "notice_weeks": "1 per complete year"
+            },
+            {
+              "band": "12+ years' service",
+              "notice_weeks": 12
+            }
+          ],
+          "effective_from": "1996-08-22",
+          "effective_to": null,
+          "status": "corroborated",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "Employment Rights Act 1996 s.86(1)",
+              "uri": "https://www.legislation.gov.uk/ukpga/1996/18/section/86",
+              "retrieved": "2026-07-08T14:44:33Z",
+              "content_hash": "sha256:b179ee96e2f2e26940376fff4800b396d72e0d445cb079fab7455ba372979e17"
+            },
+            {
+              "role": "guidance",
+              "citation": "GOV.UK — Redundancy: your rights: Notice periods",
+              "uri": "https://www.gov.uk/redundancy-your-rights/notice-periods",
+              "retrieved": "2026-07-08T14:44:33Z",
+              "content_hash": "sha256:5bb7c7481455e3779bd324413d49987b6818d26224b4fda39a8e5f535115a372"
+            }
+          ],
+          "last_verified": "2026-07-08T14:44:33Z"
+        }
+      ],
+      "derivation": null,
+      "invariants": [],
+      "scope_note": "Statutory MINIMUM only; contracts may provide more, never less (s.86(3)). Requires ≥1 month's continuous employment.",
+      "notes": null,
+      "record_version": 1
+    },
+    {
+      "id": "employment.pbp.weekly_rate",
+      "name": "Statutory Parental Bereavement Pay weekly rate",
+      "category": "employment",
+      "jurisdiction": "GB",
+      "unit": "GBP/week",
+      "value_type": "money",
+      "source_type": "si",
+      "values": [
+        {
+          "value": "£194.32",
+          "effective_from": "2026-04-06",
+          "effective_to": null,
+          "status": "corroborated",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "https://www.legislation.gov.uk/uksi/2026/148/made (SI 2026/148)",
+              "uri": "https://www.legislation.gov.uk/uksi/2026/148/made",
+              "retrieved": "2026-07-08T14:44:33Z",
+              "content_hash": "sha256:75f66c99ab3ed0fa66a6f1536afc10f556d736b82dc4f2c353015a8faeae9f77",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2026/148/made/data.xml"
+            },
+            {
+              "role": "guidance",
+              "citation": "https://www.gov.uk/guidance/rates-and-thresholds-for-employers-2026-to-2027",
+              "uri": "https://www.gov.uk/guidance/rates-and-thresholds-for-employers-2026-to-2027",
+              "retrieved": "2026-07-08T14:44:33Z",
+              "content_hash": "sha256:81956980aca45c06fda81a19f95fc202ca758b44bc5f8863f51e5b45903ee6e2"
+            }
+          ],
+          "last_verified": "2026-07-08T14:44:33Z"
+        },
+        {
+          "value": "£187.18",
+          "effective_from": "unknown-pending-backfill",
+          "effective_to": "2026-04-05",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "https://www.legislation.gov.uk/uksi/2026/148/made (SI 2026/148)",
+              "uri": "https://www.legislation.gov.uk/uksi/2026/148/made",
+              "retrieved": "2026-07-08T14:44:33Z",
+              "content_hash": "sha256:75f66c99ab3ed0fa66a6f1536afc10f556d736b82dc4f2c353015a8faeae9f77",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2026/148/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T09:47:00Z"
+        }
+      ],
+      "derivation": null,
+      "invariants": [],
+      "scope_note": "Lower of £194.32 or 90% of AWE. Same standard rate as SPP.",
+      "notes": null,
+      "record_version": 1
+    },
+    {
+      "id": "employment.redundancy.max_payment",
+      "name": "Maximum statutory redundancy payment (30 weeks x capped week's pay)",
+      "category": "employment",
+      "jurisdiction": "GB",
+      "unit": "GBP",
+      "value_type": "money",
+      "source_type": "derived",
+      "values": [
+        {
+          "value": "£22,530.00",
+          "effective_from": "2026-04-06",
+          "effective_to": null,
+          "status": "derivation_verified",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "https://www.legislation.gov.uk/uksi/2026/310/schedule/made (derived from s.227 cap + ERA 1996 s.162 multiplier; not a standalone figure in the Order)",
+              "uri": "https://www.legislation.gov.uk/uksi/2026/310/schedule/made",
+              "retrieved": "2026-07-08T14:44:33Z",
+              "content_hash": "sha256:e38d02439befd69a9eae7bee9249fb1e7eaeda026295edb37fadf4d42abfd510",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2026/310/made/data.xml"
+            },
+            {
+              "role": "guidance",
+              "citation": "https://www.gov.uk/redundancy-your-rights/redundancy-pay",
+              "uri": "https://www.gov.uk/redundancy-your-rights/redundancy-pay",
+              "retrieved": "2026-07-08T14:44:33Z",
+              "content_hash": "sha256:e871330c8ceeee1a688fb5db11eaeb79a9a0d82382d0746782d5bb82683553b1"
+            }
+          ],
+          "last_verified": "2026-07-08T14:44:33Z"
+        }
+      ],
+      "derivation": "20 * 1.5 * employment.redundancy.weekly_pay_cap",
+      "invariants": [],
+      "scope_note": null,
+      "notes": null,
+      "record_version": 1
+    },
+    {
+      "id": "employment.redundancy.service_cap_years",
+      "name": "Redundancy pay: cap on years of service",
+      "category": "employment",
+      "jurisdiction": "GB",
+      "unit": "years",
+      "value_type": "count",
+      "source_type": "act",
+      "values": [
+        {
+          "value": 20,
+          "effective_from": "1996-08-22",
+          "effective_to": null,
+          "status": "corroborated",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "Employment Rights Act 1996 s.162(3)",
+              "uri": "https://www.legislation.gov.uk/ukpga/1996/18/section/162",
+              "retrieved": "2026-07-08T14:44:33Z",
+              "content_hash": "sha256:a6c99d04619e711378b6482f554a03552a93d987e8b7b63e45335f1475842503"
+            },
+            {
+              "role": "guidance",
+              "citation": "GOV.UK — Redundancy: your rights ('Length of service is capped at 20 years.')",
+              "uri": "https://www.gov.uk/redundancy-your-rights/redundancy-pay",
+              "retrieved": "2026-07-08T14:44:33Z",
+              "content_hash": "sha256:e871330c8ceeee1a688fb5db11eaeb79a9a0d82382d0746782d5bb82683553b1"
+            }
+          ],
+          "last_verified": "2026-07-08T14:44:33Z"
+        }
+      ],
+      "derivation": null,
+      "invariants": [],
+      "scope_note": "Caps reckonable years in the statutory redundancy calculation; earlier years disregarded. Interacts with the s.227 week's-pay cap.",
+      "notes": "Consolidated from EPCA 1978; s.162(3) unchanged since ERA 1996 commencement (age-tapering subsections repealed 2006 separately).",
+      "record_version": 1
+    },
+    {
+      "id": "employment.redundancy.weekly_pay_cap",
+      "name": "Maximum amount of a week's pay (redundancy / basic award)",
+      "category": "employment",
+      "jurisdiction": "GB",
+      "unit": "GBP/week",
+      "value_type": "money",
+      "source_type": "si",
+      "values": [
+        {
+          "value": "£751.00",
+          "effective_from": "2026-04-06",
+          "effective_to": null,
+          "status": "corroborated",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "https://www.legislation.gov.uk/uksi/2026/310/schedule/made (ERA 1996 s.227(1); SI 2026/310)",
+              "uri": "https://www.legislation.gov.uk/uksi/2026/310/schedule/made",
+              "retrieved": "2026-07-08T14:44:33Z",
+              "content_hash": "sha256:e38d02439befd69a9eae7bee9249fb1e7eaeda026295edb37fadf4d42abfd510",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2026/310/made/data.xml"
+            },
+            {
+              "role": "guidance",
+              "citation": "https://www.gov.uk/redundancy-your-rights/redundancy-pay",
+              "uri": "https://www.gov.uk/redundancy-your-rights/redundancy-pay",
+              "retrieved": "2026-07-08T14:44:33Z",
+              "content_hash": "sha256:e871330c8ceeee1a688fb5db11eaeb79a9a0d82382d0746782d5bb82683553b1"
+            }
+          ],
+          "last_verified": "2026-07-08T14:44:33Z"
+        },
+        {
+          "value": "£719.00",
+          "effective_from": "2025-04-06",
+          "effective_to": "2026-04-05",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "SI 2025/348 Schedule (as made)",
+              "uri": "https://www.legislation.gov.uk/uksi/2025/348",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:45d41fa552d2691a387175add7b3843e8bc7cd54b0f4574d1bd4e9d65ac395c8",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2025/348/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£700.00",
+          "effective_from": "2024-04-06",
+          "effective_to": "2025-04-05",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "SI 2024/213 Schedule (as made)",
+              "uri": "https://www.legislation.gov.uk/uksi/2024/213",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:38ab560f4cb9f3102326d963ebc3ee52c1f3af8ef724b3c970f2ea1489556250",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2024/213/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£643.00",
+          "effective_from": "2023-04-06",
+          "effective_to": "2024-04-05",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "SI 2023/318 Schedule (as made)",
+              "uri": "https://www.legislation.gov.uk/uksi/2023/318",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:674563a47f49a6906ddff6ca214909e4a288999170890598696266a317539518",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2023/318/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£571.00",
+          "effective_from": "2022-04-06",
+          "effective_to": "2023-04-05",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "SI 2022/182 Schedule (as made)",
+              "uri": "https://www.legislation.gov.uk/uksi/2022/182",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:df3dfe66a0a303f67aa7e37cf3c6df55370d4048cb2c8dc181bbc13d444683f3",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2022/182/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£544.00",
+          "effective_from": "2021-04-06",
+          "effective_to": "2022-04-05",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "SI 2021/208 Schedule (as made)",
+              "uri": "https://www.legislation.gov.uk/uksi/2021/208",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:5a85ff948f8d765b8e2c333e724c9693f8f0d45262c131ffe422ce018fdf5baa",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2021/208/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£538.00",
+          "effective_from": "2020-04-06",
+          "effective_to": "2021-04-05",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "SI 2020/205 Schedule (as made)",
+              "uri": "https://www.legislation.gov.uk/uksi/2020/205",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:d3559002161a8e0cae1ca0b354aa29aa18ff09107ebae4ad5d4143ac39f16344",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2020/205/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£525.00",
+          "effective_from": "2019-04-06",
+          "effective_to": "2020-04-05",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "SI 2019/324 Schedule (as made)",
+              "uri": "https://www.legislation.gov.uk/uksi/2019/324",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:b1b97d7865c1a5c84a660e87a20f6e68576b2e16ed67a371efae5e0e1558c021",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2019/324/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£508.00",
+          "effective_from": "2018-04-06",
+          "effective_to": "2019-04-05",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "SI 2018/194 Schedule (as made)",
+              "uri": "https://www.legislation.gov.uk/uksi/2018/194",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:e26a1a52f790dfd6770741e12e8b441e237c5e9849ad9190a3a25f2ca15b03b7",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2018/194/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£489.00",
+          "effective_from": "2017-04-06",
+          "effective_to": "2018-04-05",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "SI 2017/175 Schedule (as made)",
+              "uri": "https://www.legislation.gov.uk/uksi/2017/175",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:9e7c1e9f7e4eb3a837ed4a82315aa910a334fac4b8e037f206654a5c4c4990ef",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2017/175/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£479.00",
+          "effective_from": "2016-04-06",
+          "effective_to": "2017-04-05",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "SI 2016/288 Schedule (as made)",
+              "uri": "https://www.legislation.gov.uk/uksi/2016/288",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:7302fe72358a6a8db90faeefe220cefab24602f8075c8830eb3195e469bbbb1e",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2016/288/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        }
+      ],
+      "derivation": null,
+      "invariants": [
+        "employment.redundancy.max_payment == 20 * 1.5 * this"
+      ],
+      "scope_note": null,
+      "notes": null,
+      "record_version": 3
+    },
+    {
+      "id": "employment.smp.first_six_weeks_rate",
+      "name": "Statutory Maternity Pay: first 6 weeks earnings-related rate",
+      "category": "employment",
+      "jurisdiction": "GB",
+      "unit": "percent_of_AWE",
+      "value_type": "percentage",
+      "source_type": "act",
+      "values": [
+        {
+          "value": "90%",
+          "effective_from": "2003-04-06",
+          "effective_to": null,
+          "status": "corroborated",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "Social Security Contributions and Benefits Act 1992 s.166(1)–(2) (as substituted by Employment Act 2002)",
+              "uri": "https://www.legislation.gov.uk/ukpga/1992/4/section/166",
+              "retrieved": "2026-07-08T14:44:33Z",
+              "content_hash": "sha256:2661602e56810f2d817f02c27fb631cf1e4565f8d93ec35c3dc7ae4d975970e3"
+            },
+            {
+              "role": "guidance",
+              "citation": "GOV.UK — Maternity pay and leave: Pay ('90% of your average weekly earnings (before tax) for the first 6 weeks')",
+              "uri": "https://www.gov.uk/maternity-pay-leave/pay",
+              "retrieved": "2026-07-08T14:44:33Z",
+              "content_hash": "sha256:13b19e8f765c7ec0bb54d738d8dbbb20d12e1ec5aeec6d624c2fbc8566ba581d"
+            }
+          ],
+          "last_verified": "2026-07-08T14:44:33Z"
+        }
+      ],
+      "derivation": null,
+      "invariants": [],
+      "scope_note": "First 6 weeks only; remaining 33 weeks at the lower of 90% AWE and the prescribed flat weekly rate (see employment.smp.weekly_rate).",
+      "notes": null,
+      "record_version": 1
+    },
+    {
+      "id": "employment.smp.weekly_rate",
+      "name": "Statutory Maternity Pay standard weekly rate (weeks 7+)",
+      "category": "employment",
+      "jurisdiction": "GB",
+      "unit": "GBP/week",
+      "value_type": "money",
+      "source_type": "si",
+      "values": [
+        {
+          "value": "£194.32",
+          "effective_from": "2026-04-05",
+          "effective_to": null,
+          "status": "corroborated",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "https://www.legislation.gov.uk/uksi/2026/148/made (amending SMP (General) Regs 1986 reg.6; SI 2026/148)",
+              "uri": "https://www.legislation.gov.uk/uksi/2026/148/made",
+              "retrieved": "2026-07-08T14:44:33Z",
+              "content_hash": "sha256:75f66c99ab3ed0fa66a6f1536afc10f556d736b82dc4f2c353015a8faeae9f77",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2026/148/made/data.xml"
+            },
+            {
+              "role": "guidance",
+              "citation": "https://www.gov.uk/guidance/rates-and-thresholds-for-employers-2026-to-2027",
+              "uri": "https://www.gov.uk/guidance/rates-and-thresholds-for-employers-2026-to-2027",
+              "retrieved": "2026-07-08T14:44:33Z",
+              "content_hash": "sha256:81956980aca45c06fda81a19f95fc202ca758b44bc5f8863f51e5b45903ee6e2"
+            }
+          ],
+          "last_verified": "2026-07-08T14:44:33Z"
+        },
+        {
+          "value": "£187.18",
+          "effective_from": "2025-04-06",
+          "effective_to": "2026-04-04",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "guidance",
+              "citation": "Rates and thresholds for employers 2025 to 2026 (gov.uk); B-only backfill — future A-source: Social Security Benefits Up-rating Order, SI 2025/295 (extraction deferred)",
+              "uri": "https://www.gov.uk/guidance/rates-and-thresholds-for-employers-2025-to-2026",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": null
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£184.03",
+          "effective_from": "2024-04-07",
+          "effective_to": "2025-04-05",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "guidance",
+              "citation": "Rates and thresholds for employers 2024 to 2025 (gov.uk); B-only backfill — future A-source: Social Security Benefits Up-rating Order, SI 2024/242 (extraction deferred)",
+              "uri": "https://www.gov.uk/guidance/rates-and-thresholds-for-employers-2024-to-2025",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": null
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£172.48",
+          "effective_from": "2023-04-02",
+          "effective_to": "2024-04-06",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "guidance",
+              "citation": "Rates and thresholds for employers 2023 to 2024 (gov.uk); B-only backfill — future A-source: Social Security Benefits Up-rating Order, SI 2023/316 (extraction deferred)",
+              "uri": "https://www.gov.uk/guidance/rates-and-thresholds-for-employers-2023-to-2024",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": null
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£156.66",
+          "effective_from": "2022-04-03",
+          "effective_to": "2023-04-01",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "guidance",
+              "citation": "Rates and thresholds for employers 2022 to 2023 (gov.uk); B-only backfill — future A-source: Social Security Benefits Up-rating Order, SI 2022/292 (extraction deferred)",
+              "uri": "https://www.gov.uk/guidance/rates-and-thresholds-for-employers-2022-to-2023",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": null
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£151.97",
+          "effective_from": "2021-04-04",
+          "effective_to": "2022-04-02",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "guidance",
+              "citation": "Rates and thresholds for employers 2021 to 2022 (gov.uk); B-only backfill — future A-source: Social Security Benefits Up-rating Order, SI 2021/162 (extraction deferred)",
+              "uri": "https://www.gov.uk/guidance/rates-and-thresholds-for-employers-2021-to-2022",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": null
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£151.20",
+          "effective_from": "2020-04-06",
+          "effective_to": "2021-04-03",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "guidance",
+              "citation": "Rates and thresholds for employers 2020 to 2021 (gov.uk); B-only backfill — future A-source: Social Security Benefits Up-rating Order, SI 2020/234 (extraction deferred)",
+              "uri": "https://www.gov.uk/guidance/rates-and-thresholds-for-employers-2020-to-2021",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": null
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£148.68",
+          "effective_from": "2019-04-07",
+          "effective_to": "2020-04-05",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "guidance",
+              "citation": "Rates and thresholds for employers 2019 to 2020 (gov.uk); B-only backfill — future A-source: Social Security Benefits Up-rating Order, SI 2019/480 (extraction deferred)",
+              "uri": "https://www.gov.uk/guidance/rates-and-thresholds-for-employers-2019-to-2020",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": null
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£145.18",
+          "effective_from": "2018-04-06",
+          "effective_to": "2019-04-06",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "guidance",
+              "citation": "Rates and thresholds for employers 2018 to 2019 (gov.uk); B-only backfill — future A-source: Social Security Benefits Up-rating Order, SI 2018/281 (extraction deferred)",
+              "uri": "https://www.gov.uk/guidance/rates-and-thresholds-for-employers-2018-to-2019",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": null
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£140.98",
+          "effective_from": "2017-04-06",
+          "effective_to": "2018-04-05",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "guidance",
+              "citation": "Rates and thresholds for employers 2017 to 2018 (gov.uk); B-only backfill — future A-source: Social Security Benefits Up-rating Order, SI 2017/260 (extraction deferred)",
+              "uri": "https://www.gov.uk/guidance/rates-and-thresholds-for-employers-2017-to-2018",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": null
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£139.58",
+          "effective_from": "2016-04-06",
+          "effective_to": "2017-04-05",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "guidance",
+              "citation": "Rates and thresholds for employers 2016 to 2017 (gov.uk); B-only backfill — future A-source: Social Security Benefits Up-rating Order, SI 2016/230 (extraction deferred)",
+              "uri": "https://www.gov.uk/guidance/rates-and-thresholds-for-employers-2016-to-2017",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": null
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        }
+      ],
+      "derivation": null,
+      "invariants": [],
+      "scope_note": "Lower of £194.32 or 90% of AWE. First 6 weeks = 90% of AWE.",
+      "notes": "Historical values 2016-2025 are gov.uk-only (single-source-B provenance recorded per entry); primary-legislation backfill deferred with the up-rating-order parser.",
+      "record_version": 2
+    },
+    {
+      "id": "employment.spp_shpp_sap.weekly_rate",
+      "name": "Statutory Paternity / Shared Parental / Adoption Pay weekly rate",
+      "category": "employment",
+      "jurisdiction": "GB",
+      "unit": "GBP/week",
+      "value_type": "money",
+      "source_type": "si",
+      "values": [
+        {
+          "value": "£194.32",
+          "effective_from": "2026-04-06",
+          "effective_to": null,
+          "status": "corroborated",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "https://www.legislation.gov.uk/uksi/2026/148/made (SI 2026/148, amending SPP/ShPP/SAP regs)",
+              "uri": "https://www.legislation.gov.uk/uksi/2026/148/made",
+              "retrieved": "2026-07-08T14:44:33Z",
+              "content_hash": "sha256:75f66c99ab3ed0fa66a6f1536afc10f556d736b82dc4f2c353015a8faeae9f77",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2026/148/made/data.xml"
+            },
+            {
+              "role": "guidance",
+              "citation": "https://www.gov.uk/guidance/rates-and-thresholds-for-employers-2026-to-2027",
+              "uri": "https://www.gov.uk/guidance/rates-and-thresholds-for-employers-2026-to-2027",
+              "retrieved": "2026-07-08T14:44:33Z",
+              "content_hash": "sha256:81956980aca45c06fda81a19f95fc202ca758b44bc5f8863f51e5b45903ee6e2"
+            }
+          ],
+          "last_verified": "2026-07-08T14:44:33Z"
+        },
+        {
+          "value": "£187.18",
+          "effective_from": "unknown-pending-backfill",
+          "effective_to": "2026-04-05",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "https://www.legislation.gov.uk/uksi/2026/148/made (SI 2026/148, amending SPP/ShPP/SAP regs)",
+              "uri": "https://www.legislation.gov.uk/uksi/2026/148/made",
+              "retrieved": "2026-07-08T14:44:33Z",
+              "content_hash": "sha256:75f66c99ab3ed0fa66a6f1536afc10f556d736b82dc4f2c353015a8faeae9f77",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2026/148/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T09:47:00Z"
+        }
+      ],
+      "derivation": null,
+      "invariants": [],
+      "scope_note": "SAP: first 6 weeks 90% of AWE, then lower of £194.32/90% AWE. SPP/ShPP: lower of £194.32 or 90% AWE.",
+      "notes": null,
+      "record_version": 1
+    },
+    {
+      "id": "employment.ssp.weekly_rate",
+      "name": "Statutory Sick Pay weekly rate",
+      "category": "employment",
+      "jurisdiction": "GB",
+      "unit": "GBP/week",
+      "value_type": "money",
+      "source_type": "si",
+      "values": [
+        {
+          "value": "£123.25",
+          "effective_from": "2026-04-06",
+          "effective_to": null,
+          "status": "corroborated",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "https://www.legislation.gov.uk/uksi/2026/148/made (up-rating Order amending SSCBA 1992 s.157(1); SI 2026/148)",
+              "uri": "https://www.legislation.gov.uk/uksi/2026/148/made",
+              "retrieved": "2026-07-08T14:44:33Z",
+              "content_hash": "sha256:75f66c99ab3ed0fa66a6f1536afc10f556d736b82dc4f2c353015a8faeae9f77",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2026/148/made/data.xml"
+            },
+            {
+              "role": "guidance",
+              "citation": "https://www.gov.uk/guidance/rates-and-thresholds-for-employers-2026-to-2027",
+              "uri": "https://www.gov.uk/guidance/rates-and-thresholds-for-employers-2026-to-2027",
+              "retrieved": "2026-07-08T14:44:33Z",
+              "content_hash": "sha256:81956980aca45c06fda81a19f95fc202ca758b44bc5f8863f51e5b45903ee6e2"
+            }
+          ],
+          "last_verified": "2026-07-08T14:44:33Z"
+        },
+        {
+          "value": "£118.75",
+          "effective_from": "2025-04-06",
+          "effective_to": "2026-04-05",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "guidance",
+              "citation": "Rates and thresholds for employers 2025 to 2026 (gov.uk); B-only backfill — future A-source: Social Security Benefits Up-rating Order, SI 2025/295 (extraction deferred)",
+              "uri": "https://www.gov.uk/guidance/rates-and-thresholds-for-employers-2025-to-2026",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": null
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£116.75",
+          "effective_from": "2024-04-06",
+          "effective_to": "2025-04-05",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "guidance",
+              "citation": "Rates and thresholds for employers 2024 to 2025 (gov.uk); B-only backfill — future A-source: Social Security Benefits Up-rating Order, SI 2024/242 (extraction deferred)",
+              "uri": "https://www.gov.uk/guidance/rates-and-thresholds-for-employers-2024-to-2025",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": null
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£109.40",
+          "effective_from": "2023-04-06",
+          "effective_to": "2024-04-05",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "guidance",
+              "citation": "Rates and thresholds for employers 2023 to 2024 (gov.uk); B-only backfill — future A-source: Social Security Benefits Up-rating Order, SI 2023/316 (extraction deferred)",
+              "uri": "https://www.gov.uk/guidance/rates-and-thresholds-for-employers-2023-to-2024",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": null
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£99.35",
+          "effective_from": "2022-04-03",
+          "effective_to": "2023-04-05",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "guidance",
+              "citation": "Rates and thresholds for employers 2022 to 2023 (gov.uk); B-only backfill — future A-source: Social Security Benefits Up-rating Order, SI 2022/292 (extraction deferred)",
+              "uri": "https://www.gov.uk/guidance/rates-and-thresholds-for-employers-2022-to-2023",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": null
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£96.35",
+          "effective_from": "2021-04-04",
+          "effective_to": "2022-04-02",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "guidance",
+              "citation": "Rates and thresholds for employers 2021 to 2022 (gov.uk); B-only backfill — future A-source: Social Security Benefits Up-rating Order, SI 2021/162 (extraction deferred)",
+              "uri": "https://www.gov.uk/guidance/rates-and-thresholds-for-employers-2021-to-2022",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": null
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£95.85",
+          "effective_from": "2020-04-06",
+          "effective_to": "2021-04-03",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "guidance",
+              "citation": "Rates and thresholds for employers 2020 to 2021 (gov.uk); B-only backfill — future A-source: Social Security Benefits Up-rating Order, SI 2020/234 (extraction deferred)",
+              "uri": "https://www.gov.uk/guidance/rates-and-thresholds-for-employers-2020-to-2021",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": null
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£94.25",
+          "effective_from": "2019-04-07",
+          "effective_to": "2020-04-05",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "guidance",
+              "citation": "Rates and thresholds for employers 2019 to 2020 (gov.uk); B-only backfill — future A-source: Social Security Benefits Up-rating Order, SI 2019/480 (extraction deferred)",
+              "uri": "https://www.gov.uk/guidance/rates-and-thresholds-for-employers-2019-to-2020",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": null
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£92.05",
+          "effective_from": "2018-04-06",
+          "effective_to": "2019-04-06",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "guidance",
+              "citation": "Rates and thresholds for employers 2018 to 2019 (gov.uk); B-only backfill — future A-source: Social Security Benefits Up-rating Order, SI 2018/281 (extraction deferred)",
+              "uri": "https://www.gov.uk/guidance/rates-and-thresholds-for-employers-2018-to-2019",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": null
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£89.35",
+          "effective_from": "2017-04-06",
+          "effective_to": "2018-04-05",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "guidance",
+              "citation": "Rates and thresholds for employers 2017 to 2018 (gov.uk); B-only backfill — future A-source: Social Security Benefits Up-rating Order, SI 2017/260 (extraction deferred)",
+              "uri": "https://www.gov.uk/guidance/rates-and-thresholds-for-employers-2017-to-2018",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": null
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£88.45",
+          "effective_from": "2016-04-06",
+          "effective_to": "2017-04-05",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "guidance",
+              "citation": "Rates and thresholds for employers 2016 to 2017 (gov.uk); B-only backfill — future A-source: Social Security Benefits Up-rating Order, SI 2016/230 (extraction deferred)",
+              "uri": "https://www.gov.uk/guidance/rates-and-thresholds-for-employers-2016-to-2017",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": null
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        }
+      ],
+      "derivation": null,
+      "invariants": [],
+      "scope_note": "From 6 April 2026 SSP is also payable from day 1 and the LEL waiting-earnings condition is changed (Employment Rights Act 2025). Amount is lower of this or 80% of AWE.",
+      "notes": "Historical values 2016-2025 are gov.uk-only (single-source-B provenance recorded per entry); primary-legislation backfill deferred with the up-rating-order parser.",
+      "record_version": 2
+    },
+    {
+      "id": "employment.statutory_payments.lower_earnings_limit",
+      "name": "Lower Earnings Limit for NI / statutory payment qualification",
+      "category": "employment",
+      "jurisdiction": "GB",
+      "unit": "GBP/week",
+      "value_type": "money",
+      "source_type": "si",
+      "values": [
+        {
+          "value": "£129.00",
+          "effective_from": "2026-04-06",
+          "effective_to": null,
+          "status": "corroborated",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "The Social Security (Contributions) (Rates, Limits and Thresholds Amendments, National Insurance Funds Payments and Extension of Veteran's Relief) Regulations 2026, SI 2026/231 (amending reg 10(a) of the Social Security (Contributions) Regulations 2001: LEL £125 -> £129; in force 6 April 2026); as-made XML archived research/artifacts/uksi_2026_231_ni_rates_limits_made.xml",
+              "uri": "https://www.legislation.gov.uk/uksi/2026/231/made",
+              "retrieved": "2026-07-08T14:44:33Z",
+              "content_hash": "sha256:d410515726d05e01e5f43d7d3e2de01c29d90f13f1d70789ff910df40cd4e776",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2026/231/made/data.xml"
+            },
+            {
+              "role": "guidance",
+              "citation": "https://www.gov.uk/guidance/rates-and-thresholds-for-employers-2026-to-2027",
+              "uri": "https://www.gov.uk/guidance/rates-and-thresholds-for-employers-2026-to-2027",
+              "retrieved": "2026-07-08T14:44:33Z",
+              "content_hash": "sha256:81956980aca45c06fda81a19f95fc202ca758b44bc5f8863f51e5b45903ee6e2"
+            }
+          ],
+          "last_verified": "2026-07-08T14:44:33Z"
+        },
+        {
+          "value": "£125.00",
+          "effective_from": "unknown-pending-backfill",
+          "effective_to": "2026-04-05",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "legislation.gov.uk - Social Security (Contributions) (Rates, Limits and Thresholds) Regs 2026 [NOT independently retrieved this run]",
+              "uri": "https://www.legislation.gov.uk",
+              "retrieved": "2026-07-08T09:47:00Z",
+              "content_hash": null
+            }
+          ],
+          "last_verified": "2026-07-08T09:47:00Z"
+        }
+      ],
+      "derivation": null,
+      "invariants": [],
+      "scope_note": "Also £559/month, £6,708/year. Set by NI contributions regs, NOT by the up-rating Order (SI 2026/148 does not contain this figure - confirmed absent). Primary SI not independently fetched.",
+      "notes": "Was single_source_B at interim compile (the LEL is NOT in the annual up-rating Order); upgraded to corroborated 2026-07-08 after locating and reading SI 2026/231 as-made. A live demonstration of the honest-status lifecycle.",
+      "record_version": 2
+    },
+    {
+      "id": "employment.tips.no_policy_award",
+      "name": "Tips: maximum tribunal compensation for failure re written policy/records",
+      "category": "employment",
+      "jurisdiction": "GB",
+      "unit": "GBP",
+      "value_type": "money",
+      "source_type": "si",
+      "values": [
+        {
+          "value": "£5,366.00",
+          "effective_from": "2026-04-06",
+          "effective_to": null,
+          "status": "single_source_A",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "SI 2026/310 Schedule (ERA 1996 s.27O(2)): £5,135 → £5,366",
+              "uri": "https://www.legislation.gov.uk/uksi/2026/310/schedule/made",
+              "retrieved": "2026-07-08T14:44:33Z",
+              "content_hash": "sha256:e38d02439befd69a9eae7bee9249fb1e7eaeda026295edb37fadf4d42abfd510",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2026/310/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T14:44:33Z"
+        }
+      ],
+      "derivation": null,
+      "invariants": [],
+      "scope_note": "Cap on compensation on a well-founded s.27O complaint (written tipping policy / records).",
+      "notes": "Same B position as s.27M — no official page quotes the figure.",
+      "record_version": 1
+    },
+    {
+      "id": "employment.tips.unfair_allocation_award",
+      "name": "Tips: maximum tribunal compensation for unfair allocation",
+      "category": "employment",
+      "jurisdiction": "GB",
+      "unit": "GBP",
+      "value_type": "money",
+      "source_type": "si",
+      "values": [
+        {
+          "value": "£5,366.00",
+          "effective_from": "2026-04-06",
+          "effective_to": null,
+          "status": "single_source_A",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "SI 2026/310 Schedule (ERA 1996 s.27M(1)): £5,135 → £5,366",
+              "uri": "https://www.legislation.gov.uk/uksi/2026/310/schedule/made",
+              "retrieved": "2026-07-08T14:44:33Z",
+              "content_hash": "sha256:e38d02439befd69a9eae7bee9249fb1e7eaeda026295edb37fadf4d42abfd510",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2026/310/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T14:44:33Z"
+        }
+      ],
+      "derivation": null,
+      "invariants": [],
+      "scope_note": "Cap on compensation for financial loss on a well-founded s.27M complaint (Employment (Allocation of Tips) Act 2023 regime).",
+      "notes": "GOV.UK statutory tips Code confirms the remedy exists but quotes no £ cap — single_source_A.",
+      "record_version": 1
+    },
+    {
+      "id": "employment.tribunal.acas_uplift_max_pct",
+      "name": "Acas Code uplift/reduction: maximum tribunal adjustment",
+      "category": "employment",
+      "jurisdiction": "GB",
+      "unit": "percent",
+      "value_type": "percentage",
+      "source_type": "act",
+      "values": [
+        {
+          "value": "25%",
+          "effective_from": "2009-04-06",
+          "effective_to": null,
+          "status": "corroborated",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "TULRCA 1992 s.207A(2)–(3) ('by no more than 25%'; inserted by Employment Act 2008 s.3)",
+              "uri": "https://www.legislation.gov.uk/ukpga/1992/52/section/207A",
+              "retrieved": "2026-07-08T14:44:33Z",
+              "content_hash": "sha256:e21f80571e7dea4c32cb665e074260ffecdf36789b19bfdddcbb4068c5086aae"
+            },
+            {
+              "role": "guidance",
+              "citation": "Acas Code of Practice on disciplinary and grievance procedures ('adjust any awards ... by up to 25 per cent')",
+              "uri": "https://www.acas.org.uk/acas-code-of-practice-on-disciplinary-and-grievance-procedures/html",
+              "retrieved": "2026-07-08T14:44:33Z",
+              "content_hash": "sha256:b29ef89603b5118bc9bd930c63f8eab37920b559bb5697a1073760da3f22b222"
+            }
+          ],
+          "last_verified": "2026-07-08T14:44:33Z"
+        }
+      ],
+      "derivation": null,
+      "invariants": [],
+      "scope_note": "Up to 25% either way (increase for employer's, reduction for employee's unreasonable failure to follow a relevant Code); only for TULRCA Schedule A2 claims.",
+      "notes": "B is Acas (statutory body) rather than gov.uk.",
+      "record_version": 1
+    },
+    {
+      "id": "employment.tribunal.breach_of_contract_cap",
+      "name": "Employment tribunal breach-of-contract claim: maximum award",
+      "category": "employment",
+      "jurisdiction": "GB-EAW",
+      "unit": "GBP",
+      "value_type": "money",
+      "source_type": "si",
+      "values": [
+        {
+          "value": "£25,000.00",
+          "effective_from": "1994-07-03",
+          "effective_to": null,
+          "status": "corroborated",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "Industrial Tribunals Extension of Jurisdiction (England and Wales) Order 1994, SI 1994/1623 art.10",
+              "uri": "https://www.legislation.gov.uk/uksi/1994/1623/article/10",
+              "retrieved": "2026-07-08T14:44:33Z",
+              "content_hash": "sha256:d706221204bf109e6ce6a7718095c384b1d7e9024489964694ff867629106680",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/1994/1623/made/data.xml"
+            },
+            {
+              "role": "guidance",
+              "citation": "GOV.UK — Making a claim to an employment tribunal (T420) ('compensation up to the sum of £25,000')",
+              "uri": "https://www.gov.uk/government/publications/making-a-claim-to-an-employment-tribunal-t420/making-a-claim-to-an-employment-tribunal-t420",
+              "retrieved": "2026-07-08T14:44:33Z",
+              "content_hash": "sha256:d77c024963fc0d3ee8237ed9a2b3fbb661b034e982b06570ca03a7a6c7b36269"
+            }
+          ],
+          "last_verified": "2026-07-08T14:44:33Z"
+        }
+      ],
+      "derivation": null,
+      "invariants": [],
+      "scope_note": "Per contract (or per set of claims on one contract). England & Wales; Scottish parallel is SI 1994/1624. Never uprated — not linked to any annual limits order.",
+      "notes": "Instrument retains its original 'Industrial Tribunals' citation despite the 1998 rename.",
+      "record_version": 1
+    },
+    {
+      "id": "employment.tribunal.vento_bands",
+      "name": "Vento bands: injury-to-feelings awards",
+      "category": "employment",
+      "jurisdiction": "GB",
+      "unit": "GBP",
+      "value_type": "banded_table",
+      "source_type": "presidential_guidance",
+      "values": [
+        {
+          "value": [
+            {
+              "band": "lower",
+              "from": 1300,
+              "to": 12600,
+              "desc": "less serious cases"
+            },
+            {
+              "band": "middle",
+              "from": 12600,
+              "to": 37700,
+              "desc": "cases not meriting the upper band"
+            },
+            {
+              "band": "upper",
+              "from": 37700,
+              "to": 62900,
+              "desc": "most serious; exceptional cases may exceed £62,900"
+            }
+          ],
+          "effective_from": "2026-04-06",
+          "effective_to": null,
+          "status": "corroborated-secondary-B",
+          "sources": [
+            {
+              "role": "judicial_guidance",
+              "citation": "Presidential Guidance (ET E&W + Scotland), NINTH Addendum, signed 2026-03-30; PDF archived at research/artifacts/Vento-bands-presidential-guidance-April-2026-addendum.pdf (URL rotates yearly)",
+              "uri": "https://www.judiciary.uk/wp-content/uploads/2026/03/Vento-bands-presidential-guidance-April-2026-addendum-1.pdf",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:dd1ff9114926db17a3c4dd05be17d906e68da829bb186f16a880d1aa579cfda2"
+            },
+            {
+              "role": "secondary",
+              "citation": "≥2 independent reproductions matching the PDF exactly: Practical Law w-049-8281; Howes Percival 'Updated Vento Bands 2026'",
+              "uri": "https://www.howespercival.com/articles/updated-vento-bands-2026/",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": null
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        }
+      ],
+      "derivation": null,
+      "invariants": [],
+      "scope_note": "Applies to claims PRESENTED on/after 2026-04-06; earlier claims use the Eighth Addendum bands. Non-statutory judicial guidance (no SI exists), RPI-uprated. Scotland additionally subject to para 12 of the 2017 guidance.",
+      "notes": "PDF para 1 contains an apparent internal typo ('Eighth' where 'Ninth' is meant); operative bands unaffected. Sole publisher judiciary.uk — corroborated-secondary-B is the best attainable status for this source_type.",
+      "record_version": 1
+    },
+    {
+      "id": "employment.unfair_dismissal.additional_award_range",
+      "name": "Unfair dismissal: additional award (reinstatement order not complied with)",
+      "category": "employment",
+      "jurisdiction": "GB",
+      "unit": "weeks_pay",
+      "value_type": "banded_table",
+      "source_type": "act",
+      "values": [
+        {
+          "value": [
+            {
+              "band": "additional_award",
+              "min_weeks": 26,
+              "max_weeks": 52
+            }
+          ],
+          "effective_from": "1999-10-25",
+          "effective_to": null,
+          "status": "single_source_A",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "Employment Rights Act 1996 s.117(3)(b) ('not less than twenty-six nor more than fifty-two weeks’ pay'); band substituted by Employment Relations Act 1999 s.33(2), in force 1999-10-25 (SI 1999/2830)",
+              "uri": "https://www.legislation.gov.uk/ukpga/1996/18/section/117",
+              "retrieved": "2026-07-08T14:44:33Z",
+              "content_hash": "sha256:4895ed581ad6b70f97a38b001c23103ff013983a2b9b07e26dd029a9fe0feece"
+            }
+          ],
+          "last_verified": "2026-07-08T14:44:33Z"
+        }
+      ],
+      "derivation": null,
+      "invariants": [],
+      "scope_note": "Only where a s.113 reinstatement/re-engagement order was not complied with and compliance was practicable. Each week's pay subject to the s.227 cap.",
+      "notes": "No official guidance page quotes the band — single_source_A by design.",
+      "record_version": 1
+    },
+    {
+      "id": "employment.unfair_dismissal.compensatory_cap",
+      "name": "Limit on compensatory award for unfair dismissal",
+      "category": "employment",
+      "jurisdiction": "GB",
+      "unit": "GBP",
+      "value_type": "money",
+      "source_type": "si",
+      "values": [
+        {
+          "value": "£123,543.00",
+          "effective_from": "2026-04-06",
+          "effective_to": null,
+          "status": "corroborated",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "https://www.legislation.gov.uk/uksi/2026/310/schedule/made (ERA 1996 s.124(1ZA)(a); SI 2026/310)",
+              "uri": "https://www.legislation.gov.uk/uksi/2026/310/schedule/made",
+              "retrieved": "2026-07-08T14:44:33Z",
+              "content_hash": "sha256:e38d02439befd69a9eae7bee9249fb1e7eaeda026295edb37fadf4d42abfd510",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2026/310/made/data.xml"
+            },
+            {
+              "role": "guidance",
+              "citation": "https://www.gov.uk/dismissal/compensation-and-tribunals (Acas/gov.uk guidance)",
+              "uri": "https://www.gov.uk/dismissal/compensation-and-tribunals",
+              "retrieved": "2026-07-08T14:44:33Z",
+              "content_hash": "sha256:8d795fb96ff47d7beed5e7e320599d59a1b797f04b11f23ca590f7b8210d5ff7"
+            }
+          ],
+          "last_verified": "2026-07-08T14:44:33Z"
+        },
+        {
+          "value": "£118,223.00",
+          "effective_from": "2025-04-06",
+          "effective_to": "2026-04-05",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "SI 2025/348 Schedule (as made)",
+              "uri": "https://www.legislation.gov.uk/uksi/2025/348",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:45d41fa552d2691a387175add7b3843e8bc7cd54b0f4574d1bd4e9d65ac395c8",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2025/348/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£115,115.00",
+          "effective_from": "2024-04-06",
+          "effective_to": "2025-04-05",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "SI 2024/213 Schedule (as made)",
+              "uri": "https://www.legislation.gov.uk/uksi/2024/213",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:38ab560f4cb9f3102326d963ebc3ee52c1f3af8ef724b3c970f2ea1489556250",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2024/213/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£105,707.00",
+          "effective_from": "2023-04-06",
+          "effective_to": "2024-04-05",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "SI 2023/318 Schedule (as made)",
+              "uri": "https://www.legislation.gov.uk/uksi/2023/318",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:674563a47f49a6906ddff6ca214909e4a288999170890598696266a317539518",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2023/318/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£93,878.00",
+          "effective_from": "2022-04-06",
+          "effective_to": "2023-04-05",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "SI 2022/182 Schedule (as made)",
+              "uri": "https://www.legislation.gov.uk/uksi/2022/182",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:df3dfe66a0a303f67aa7e37cf3c6df55370d4048cb2c8dc181bbc13d444683f3",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2022/182/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£89,493.00",
+          "effective_from": "2021-04-06",
+          "effective_to": "2022-04-05",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "SI 2021/208 Schedule (as made)",
+              "uri": "https://www.legislation.gov.uk/uksi/2021/208",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:5a85ff948f8d765b8e2c333e724c9693f8f0d45262c131ffe422ce018fdf5baa",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2021/208/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£88,519.00",
+          "effective_from": "2020-04-06",
+          "effective_to": "2021-04-05",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "SI 2020/205 Schedule (as made)",
+              "uri": "https://www.legislation.gov.uk/uksi/2020/205",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:d3559002161a8e0cae1ca0b354aa29aa18ff09107ebae4ad5d4143ac39f16344",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2020/205/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£86,444.00",
+          "effective_from": "2019-04-06",
+          "effective_to": "2020-04-05",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "SI 2019/324 Schedule (as made)",
+              "uri": "https://www.legislation.gov.uk/uksi/2019/324",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:b1b97d7865c1a5c84a660e87a20f6e68576b2e16ed67a371efae5e0e1558c021",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2019/324/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£83,682.00",
+          "effective_from": "2018-04-06",
+          "effective_to": "2019-04-05",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "SI 2018/194 Schedule (as made)",
+              "uri": "https://www.legislation.gov.uk/uksi/2018/194",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:e26a1a52f790dfd6770741e12e8b441e237c5e9849ad9190a3a25f2ca15b03b7",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2018/194/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£80,541.00",
+          "effective_from": "2017-04-06",
+          "effective_to": "2018-04-05",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "SI 2017/175 Schedule (as made)",
+              "uri": "https://www.legislation.gov.uk/uksi/2017/175",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:9e7c1e9f7e4eb3a837ed4a82315aa910a334fac4b8e037f206654a5c4c4990ef",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2017/175/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£78,962.00",
+          "effective_from": "2016-04-06",
+          "effective_to": "2017-04-05",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "SI 2016/288 Schedule (as made)",
+              "uri": "https://www.legislation.gov.uk/uksi/2016/288",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:7302fe72358a6a8db90faeefe220cefab24602f8075c8830eb3195e469bbbb1e",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2016/288/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        }
+      ],
+      "derivation": null,
+      "invariants": [],
+      "scope_note": "Actual cap is lower of this figure or 52 weeks' gross pay.",
+      "notes": null,
+      "record_version": 3
+    },
+    {
+      "id": "employment.unfair_dismissal.min_basic_award",
+      "name": "Minimum basic award for certain automatically-unfair dismissals (H&S, union, etc.)",
+      "category": "employment",
+      "jurisdiction": "GB",
+      "unit": "GBP",
+      "value_type": "money",
+      "source_type": "si",
+      "values": [
+        {
+          "value": "£9,157.00",
+          "effective_from": "2026-04-06",
+          "effective_to": null,
+          "status": "corroborated",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "https://www.legislation.gov.uk/uksi/2026/310/schedule/made (ERA 1996 s.120(1) / TULRCA 1992 s.156(1))",
+              "uri": "https://www.legislation.gov.uk/uksi/2026/310/schedule/made",
+              "retrieved": "2026-07-08T14:44:33Z",
+              "content_hash": "sha256:e38d02439befd69a9eae7bee9249fb1e7eaeda026295edb37fadf4d42abfd510",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2026/310/made/data.xml"
+            },
+            {
+              "role": "guidance",
+              "citation": "https://www.gov.uk/dismissal/compensation-and-tribunals",
+              "uri": "https://www.gov.uk/dismissal/compensation-and-tribunals",
+              "retrieved": "2026-07-08T14:44:33Z",
+              "content_hash": "sha256:8d795fb96ff47d7beed5e7e320599d59a1b797f04b11f23ca590f7b8210d5ff7"
+            }
+          ],
+          "last_verified": "2026-07-08T14:44:33Z"
+        },
+        {
+          "value": "£8,763.00",
+          "effective_from": "2025-04-06",
+          "effective_to": "2026-04-05",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "SI 2025/348 Schedule (as made)",
+              "uri": "https://www.legislation.gov.uk/uksi/2025/348",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:45d41fa552d2691a387175add7b3843e8bc7cd54b0f4574d1bd4e9d65ac395c8",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2025/348/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£8,533.00",
+          "effective_from": "2024-04-06",
+          "effective_to": "2025-04-05",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "SI 2024/213 Schedule (as made)",
+              "uri": "https://www.legislation.gov.uk/uksi/2024/213",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:38ab560f4cb9f3102326d963ebc3ee52c1f3af8ef724b3c970f2ea1489556250",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2024/213/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£7,836.00",
+          "effective_from": "2023-04-06",
+          "effective_to": "2024-04-05",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "SI 2023/318 Schedule (as made)",
+              "uri": "https://www.legislation.gov.uk/uksi/2023/318",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:674563a47f49a6906ddff6ca214909e4a288999170890598696266a317539518",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2023/318/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£6,959.00",
+          "effective_from": "2022-04-06",
+          "effective_to": "2023-04-05",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "SI 2022/182 Schedule (as made)",
+              "uri": "https://www.legislation.gov.uk/uksi/2022/182",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:df3dfe66a0a303f67aa7e37cf3c6df55370d4048cb2c8dc181bbc13d444683f3",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2022/182/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£6,634.00",
+          "effective_from": "2021-04-06",
+          "effective_to": "2022-04-05",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "SI 2021/208 Schedule (as made)",
+              "uri": "https://www.legislation.gov.uk/uksi/2021/208",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:5a85ff948f8d765b8e2c333e724c9693f8f0d45262c131ffe422ce018fdf5baa",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2021/208/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£6,562.00",
+          "effective_from": "2020-04-06",
+          "effective_to": "2021-04-05",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "SI 2020/205 Schedule (as made)",
+              "uri": "https://www.legislation.gov.uk/uksi/2020/205",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:d3559002161a8e0cae1ca0b354aa29aa18ff09107ebae4ad5d4143ac39f16344",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2020/205/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£6,408.00",
+          "effective_from": "2019-04-06",
+          "effective_to": "2020-04-05",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "SI 2019/324 Schedule (as made)",
+              "uri": "https://www.legislation.gov.uk/uksi/2019/324",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:b1b97d7865c1a5c84a660e87a20f6e68576b2e16ed67a371efae5e0e1558c021",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2019/324/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£6,203.00",
+          "effective_from": "2018-04-06",
+          "effective_to": "2019-04-05",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "SI 2018/194 Schedule (as made)",
+              "uri": "https://www.legislation.gov.uk/uksi/2018/194",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:e26a1a52f790dfd6770741e12e8b441e237c5e9849ad9190a3a25f2ca15b03b7",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2018/194/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£5,970.00",
+          "effective_from": "2017-04-06",
+          "effective_to": "2018-04-05",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "SI 2017/175 Schedule (as made)",
+              "uri": "https://www.legislation.gov.uk/uksi/2017/175",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:9e7c1e9f7e4eb3a837ed4a82315aa910a334fac4b8e037f206654a5c4c4990ef",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2017/175/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        },
+        {
+          "value": "£5,853.00",
+          "effective_from": "2016-04-06",
+          "effective_to": "2017-04-05",
+          "status": "superseded",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "SI 2016/288 Schedule (as made)",
+              "uri": "https://www.legislation.gov.uk/uksi/2016/288",
+              "retrieved": "2026-07-08T00:00:00Z",
+              "content_hash": "sha256:7302fe72358a6a8db90faeefe220cefab24602f8075c8830eb3195e469bbbb1e",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2016/288/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T00:00:00Z"
+        }
+      ],
+      "derivation": null,
+      "invariants": [],
+      "scope_note": "Applies only to dismissals unfair under ERA 1996 s.100(1)(a)/(b),101A(d),102(1),103 and TULRCA s.152/153 - NOT ordinary unfair dismissal.",
+      "notes": null,
+      "record_version": 3
+    },
+    {
+      "id": "employment.union.dismissal_min_basic_award",
+      "name": "Trade union: minimum basic award for dismissal on union grounds",
+      "category": "employment",
+      "jurisdiction": "GB",
+      "unit": "GBP",
+      "value_type": "money",
+      "source_type": "si",
+      "values": [
+        {
+          "value": "£9,157.00",
+          "effective_from": "2026-04-06",
+          "effective_to": null,
+          "status": "single_source_A",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "SI 2026/310 Schedule (TULRCA 1992 s.156(1)): £8,763 → £9,157",
+              "uri": "https://www.legislation.gov.uk/uksi/2026/310/schedule/made",
+              "retrieved": "2026-07-08T14:44:33Z",
+              "content_hash": "sha256:e38d02439befd69a9eae7bee9249fb1e7eaeda026295edb37fadf4d42abfd510",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2026/310/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T14:44:33Z"
+        }
+      ],
+      "derivation": null,
+      "invariants": [
+        "this == employment.unfair_dismissal.min_basic_award"
+      ],
+      "scope_note": "Minimum basic award where the principal reason for dismissal is union membership/activities.",
+      "notes": "Moves in lockstep with the ERA s.120(1) minimum basic award.",
+      "record_version": 1
+    },
+    {
+      "id": "employment.union.exclusion_expulsion_award",
+      "name": "Trade union: minimum award for unlawful exclusion/expulsion",
+      "category": "employment",
+      "jurisdiction": "GB",
+      "unit": "GBP",
+      "value_type": "money",
+      "source_type": "si",
+      "values": [
+        {
+          "value": "£13,986.00",
+          "effective_from": "2026-04-06",
+          "effective_to": null,
+          "status": "single_source_A",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "SI 2026/310 Schedule (TULRCA 1992 s.176(6A)): £13,384 → £13,986",
+              "uri": "https://www.legislation.gov.uk/uksi/2026/310/schedule/made",
+              "retrieved": "2026-07-08T14:44:33Z",
+              "content_hash": "sha256:e38d02439befd69a9eae7bee9249fb1e7eaeda026295edb37fadf4d42abfd510",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2026/310/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T14:44:33Z"
+        }
+      ],
+      "derivation": null,
+      "invariants": [],
+      "scope_note": "Minimum where a s.174 complaint succeeds and the applicant has not been re-admitted by the compensation application date.",
+      "notes": null,
+      "record_version": 1
+    },
+    {
+      "id": "employment.union.unlawful_inducement_award",
+      "name": "Trade union: fixed award for unlawful inducement",
+      "category": "employment",
+      "jurisdiction": "GB",
+      "unit": "GBP",
+      "value_type": "money",
+      "source_type": "si",
+      "values": [
+        {
+          "value": "£5,993.00",
+          "effective_from": "2026-04-06",
+          "effective_to": null,
+          "status": "single_source_A",
+          "sources": [
+            {
+              "role": "legislation",
+              "citation": "SI 2026/310 Schedule (TULRCA 1992 s.145E(3)): £5,735 → £5,993",
+              "uri": "https://www.legislation.gov.uk/uksi/2026/310/schedule/made",
+              "retrieved": "2026-07-08T14:44:33Z",
+              "content_hash": "sha256:e38d02439befd69a9eae7bee9249fb1e7eaeda026295edb37fadf4d42abfd510",
+              "content_hash_of": "https://www.legislation.gov.uk/uksi/2026/310/made/data.xml"
+            }
+          ],
+          "last_verified": "2026-07-08T14:44:33Z"
+        }
+      ],
+      "derivation": null,
+      "invariants": [],
+      "scope_note": "Fixed (mandatory) award on a successful s.145A/145B complaint — a flat sum, not a cap.",
+      "notes": null,
+      "record_version": 1
+    }
+  ]
+}

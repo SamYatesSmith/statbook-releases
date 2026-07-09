@@ -1,0 +1,53 @@
+{
+  "schema": "statbook-manifest/1",
+  "release_version": "1.0.1",
+  "created": "2026-07-09T13:12:31Z",
+  "record_hashes": {
+    "employment.guarantee_pay.daily_rate": "sha256:52ce5b5395a13c8472e4883d6fb81a508a8d5e764e7bf770393fa575b930178e",
+    "employment.guarantee_pay.max_days_per_quarter": "sha256:b69cb6d32092f52a6f10659d7250d61a9f9879a011ecd5561173aecad69fe7bb",
+    "employment.insolvency.weekly_debt_limit": "sha256:9a24ba799baacf5345eb6b053bf69de90f8c5a6800c2dd38061cf08863b862f2",
+    "employment.nmw.accommodation_offset": "sha256:7f99d624ba0439ce19d119a2af545b9eae22a6c287dd76bbe186c7ab01cbb1ac",
+    "employment.nmw.apprentice": "sha256:7f51d3c12fa7f10fe7ce600d16619fba0b1151738aa99b11f0e0f3bbdd014fc1",
+    "employment.nmw.band_16_17": "sha256:22869f44a083e3e95ac50637b96a5922d572738698b418741a5162a9eedeca2c",
+    "employment.nmw.band_18_20": "sha256:f693687a1f37f560375b706caeb9551fe98c6474805680da16bda496bfda6bea",
+    "employment.nmw.band_21_22": "sha256:505079c8190f0dac9b192c9491ff952e1d8cd64f6b689dc0a5c6b0294de721b4",
+    "employment.nmw.nlw_21_over": "sha256:61ad5b25f23ebf327dec898f8fd5f057e8a9625d10fbc5e0981a58e1778252d5",
+    "employment.notice.employee_minimum": "sha256:ab6479461d2cd51777d2aafb4d61c1168cd4822db6be41a6e2595b1fb5c8c1b7",
+    "employment.notice.employer_minimum": "sha256:90fec61d7ebbbb3ed6bd059b910124609dd137306483ca402f86d15bd7b7d1ab",
+    "employment.pbp.weekly_rate": "sha256:9a4ae59f1f0137bcfec40b83bb4576954c3183c62e2e56ff7a77fd9a1184eb1d",
+    "employment.redundancy.max_payment": "sha256:6db1a0b353cbb04184aa57d3334adebd4ff147dbe9405042cc8ae91dff2a18c4",
+    "employment.redundancy.service_cap_years": "sha256:5145039febaf5e9869c9018f4d4327d5f90ea2e7b1c211e960fdcc48ac5f95a9",
+    "employment.redundancy.weekly_pay_cap": "sha256:e3abff31218d9bfb235c667da6ede82991d3aa2f06c3e505e78221dc88824d8c",
+    "employment.smp.first_six_weeks_rate": "sha256:3a7e8ad3690c748dc1dea12609640abc8a4097c01771a720ae480b51c96f47c4",
+    "employment.smp.weekly_rate": "sha256:eb70a6c20ae656b5fe14ca906dd20addb20ca5a1bcd94db59180589be8a3ddb9",
+    "employment.spp_shpp_sap.weekly_rate": "sha256:44e37c69c61afb7857b1d1b54db7bb665be1049771281e990e3025058d57565b",
+    "employment.ssp.weekly_rate": "sha256:48a7da9a52f8e93aab7b4757ba9e8dcfa372df1faecb43c8c6ec1776be3a74a6",
+    "employment.statutory_payments.lower_earnings_limit": "sha256:e08e9a798f4663ba6a4981c9dba3af5971d93922e18e6e3441f2a36f3eb1c0a3",
+    "employment.tips.no_policy_award": "sha256:1562d41cf7a0d87df046f834c3ca0064d070bbf3bfbac97890bbd5b590a94914",
+    "employment.tips.unfair_allocation_award": "sha256:a463f22cba721925a8fb4274616bbd9d4197a8acc213fac3a4cfaeb3ae486e65",
+    "employment.tribunal.acas_uplift_max_pct": "sha256:e12144535c460b14e5889a4582b5c8cac2e32ca43a16dfd78ecb94b5f6ed1fc7",
+    "employment.tribunal.breach_of_contract_cap": "sha256:db19c783a954f151afba4497db2cec6fa93a863040b012ed097585de14616472",
+    "employment.tribunal.vento_bands": "sha256:c179b5ee1d44cf182e196497d2dcdefbb40c266ec53337d637d6b6297e7e8252",
+    "employment.unfair_dismissal.additional_award_range": "sha256:4f164ff096c9271888886897641b1075be6622105b2a81b1b489c42d772d6c89",
+    "employment.unfair_dismissal.compensatory_cap": "sha256:e3f4a7956bf6ffa8f8c0449d08dfda669a7288e6f20b7d4f7448fc8902aa8b41",
+    "employment.unfair_dismissal.min_basic_award": "sha256:547619029015ca21569691be6cbc5ba75b23424ce1b5e18be9c4830998096d82",
+    "employment.union.dismissal_min_basic_award": "sha256:64066e45afb7a14ee2503d61c8f081e7a19dc185c2afa54e78912473e13ef634",
+    "employment.union.exclusion_expulsion_award": "sha256:f90e69ff0571b0f5ba7edcf9f0ceedb1f65c364e6ebfb0556432025c0ba61925",
+    "employment.union.unlawful_inducement_award": "sha256:5c334275178c52a015038f25eb0ec2483d20734b7daac3988291aa9faeb881c5"
+  },
+  "artifacts": {
+    "dataset.json": "sha256:52e10757882f22ab4890584bff0b2a9d34d669181d71ea2faedeb39ee971d5d9",
+    "dataset.sqlite": "sha256:b62a07c11e157ed8e20545a70af46d26ee746450681301cee6170b46093cd083"
+  },
+  "diff_from_previous": {
+    "previous_version": "1.0.0",
+    "added": [],
+    "removed": [],
+    "changed": []
+  },
+  "release_notes": "Receipt completion: source content hashes wired from the snapshot store and seed archive into 30 records (content_hash_of names the pinned as-made data.xml where it differs from the cited page). No figure values changed. Un-archived sources (SSP/SMP B-only history, LEL pending backfill) honestly remain content_hash: null.",
+  "signing": {
+    "scheme": "minisign (detached) + SSH-signed git tag",
+    "signed": true
+  }
+}
