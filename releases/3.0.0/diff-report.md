@@ -1,0 +1,385 @@
+# Gate 3 — release diff report
+
+## Carry exceptions come due (0)
+
+## Expired invariants, unreplaced (0)
+
+## Added figures (121)
+- **employment.apprenticeship_levy.allowance** = £15,000.00 (from 2016-09-15, corroborated)
+- **employment.apprenticeship_levy.rate** = 0.5% (from 2016-09-15, corroborated)
+- **employment.employment_allowance.amount** = £10,500.00 (from 2025-04-06, corroborated)
+- **employment.leave.adoption.additional_weeks** = 26 (from 2003-04-06, corroborated)
+- **employment.leave.adoption.ordinary_weeks** = 26 (from 2003-04-06, corroborated)
+- **employment.leave.adoption_weeks** = 52 (from 2003-04-06, derivation_verified)
+- **employment.leave.carers_weeks** = 1 (from 2024-04-06, single_source_A)
+- **employment.leave.compulsory_maternity_weeks** = 2 (from 2000-04-30, corroborated)
+- **employment.leave.maternity.additional_weeks** = 26 (from 2003-04-06, corroborated)
+- **employment.leave.maternity.ordinary_weeks** = 26 (from 2003-04-06, corroborated)
+  - source: `uksi/2002/2789` — regulation 7: for eighteen weeks substitute 26 weeks
+- **employment.leave.maternity_weeks** = 52 (from 2003-04-06, derivation_verified)
+- **employment.leave.neonatal_care_weeks** = 12 (from 2025-04-06, corroborated)
+- **employment.leave.parental_weeks** = 18 (from 2013-03-08, corroborated)
+- **employment.leave.paternity_weeks** = 2 (from 2024-04-07, corroborated)
+- **employment.leave.redundancy_protection_months** = 18 (from 2024-04-06, corroborated)
+- **employment.leave.spl.max_weeks** = 50 (from 2015-04-05, derivation_verified)
+- **employment.leave.spl.total_weeks** = 52 (from 2015-04-05, corroborated)
+- **employment.mileage.afr** = ['petrol', '1400cc_or_less'] -> rate_per_mile=£0.14 | ['petrol', '1401cc_to_2000cc'] -> rate_per_mile=£0.17 | ['petrol', 'over_2000cc'] -> rate_per_mile=£0.27 | ['lpg', '1400cc_or_less'] -> rate_per_mile=£0.11 | ['lpg', '1401cc_to_2000cc'] -> rate_per_mile=£0.13 | ['lpg', 'over_2000cc'] -> rate_per_mile=£0.20 | ['diesel', '1600cc_or_less'] -> rate_per_mile=£0.15 | ['diesel', '1601cc_to_2000cc'] -> rate_per_mile=£0.16 | ['diesel', 'over_2000cc'] -> rate_per_mile=£0.22 | ['electric', 'home_charger'] -> rate_per_mile=£0.07 | ['electric', 'public_charger'] -> rate_per_mile=£0.15 (from 2026-09-01, single_source_A)
+- **employment.mileage.amap.passenger** = £0.05 (from 2003-04-06, corroborated)
+- **employment.ni.category_letter_matrix** = A -> employer_relief=standard, employee_class=standard, employee_group=All employees apart from those in groups B, C, H, J, M, V and Z in this table | B -> employer_relief=standard, employee_class=married_women_reduced, employee_group=Married women and widows who have a certificate of election form showing they're entitled to pay reduced National Insurance | C -> employer_relief=standard, employee_class=over_state_pension_age, employee_group=Employees over the State Pension age | H -> employer_relief=apprentice_under_25, employee_class=standard, employee_group=Apprentices under 25 | J -> employer_relief=standard, employee_class=deferred, employee_group=Employees who can defer National Insurance because they're already paying it in another job | M -> employer_relief=under_21, employee_class=standard, employee_group=Employees under 21 | V -> employer_relief=veteran, employee_class=standard, employee_group=Employees who are working in their first job since leaving the armed forces (veterans) | Z -> employer_relief=under_21, employee_class=deferred, employee_group=Employees under 21 who can defer National Insurance because they're already paying it in another job | F -> employer_relief=freeport, employee_class=standard, employee_group=All employees who work in a special tax site within a Freeport, apart from those in groups I, L, and S in this table | I -> employer_relief=freeport, employee_class=married_women_reduced, employee_group=Married women and widows working in a special tax site within a Freeport who have a certificate of election form showing they're entitled to pay reduced National Insurance | L -> employer_relief=freeport, employee_class=deferred, employee_group=Employees who work in a special tax site within a Freeport and can defer National Insurance because they're already paying it in another job | S -> employer_relief=freeport, employee_class=over_state_pension_age, employee_group=Employees who work in a special tax site within a Freeport and are over the State Pension age | N -> employer_relief=investment_zone, employee_class=standard, employee_group=All employees who work in a special tax site within an Investment Zone, apart from those in groups E, D and K in this table | E -> employer_relief=investment_zone, employee_class=married_women_reduced, employee_group=Married women and widows working in a special tax site within an Investment Zone who have a certificate of election form showing they're entitled to pay reduced National Insurance | D -> employer_relief=investment_zone, employee_class=deferred, employee_group=Employees who work in a special tax site within an Investment Zone and can defer National Insurance because they're already paying it in another job | K -> employer_relief=investment_zone, employee_class=over_state_pension_age, employee_group=Employees who work in a special tax site within an Investment Zone and are over State Pension age | X -> employer_relief=no_liability, employee_class=no_liability, employee_group=employees who do not have to pay National Insurance, for example because they're under 16 (from 2026-04-06, corroborated)
+- **employment.ni.class1.aust** = weekly=£967.00, monthly=£4,189.00, annual=£50,270.00 (from 2021-04-06, corroborated)
+  - source: `uksi/2021/157` — regulation 10: for £962 substitute £967; regulation 11(3C): for £4,167 substitute £4,189; regulation 11(3C): for £50,000 substitute £50,270
+- **employment.ni.class1.employee_additional_rate** = 2% (from 2011-04-06, corroborated)
+- **employment.ni.class1.employee_main_rate** = 8% (from 2024-04-06, corroborated)
+  - source: `ukpga/2024/5` — section 8(2)(a) of the Social Security Contributions and Benefits Act 1992: for 10% substitute 8%
+- **employment.ni.class1.employer_secondary_rate** = 15% (from 2025-04-06, corroborated)
+  - source: `ukpga/2025/11` — section 9(2) of the Social Security Contributions and Benefits Act 1992: for 13.8% substitute 15%
+- **employment.ni.class1.freeport_ust** = weekly=£481.00, monthly=£2,083.00, annual=£25,000.00 (from 2022-04-06, corroborated)
+- **employment.ni.class1.married_women_reduced_rate** = 1.85% (from 2024-04-06, corroborated)
+  - source: `ukpga/2024/5` — regulation 131 of the Social Security (Contributions) Regulations 2001: for 3.85% substitute 1.85%
+- **employment.ni.class1.primary_threshold** = weekly=£242.00, monthly=£1,048.00, annual=£12,570.00 (from 2022-07-06, corroborated)
+  - source: `ukpga/2022/16` — regulation 10(c): for £190 substitute £242; regulation 11(3): for £823 substitute £1,048; regulation 11(3): for £9,880 substitute £12,570
+- **employment.ni.class1.secondary_threshold** = weekly=£96.00, monthly=£417.00, annual=£5,000.00 (from 2025-04-06, corroborated)
+  - source: `ukpga/2025/11` — regulation 10(d): for £175 substitute £96; regulation 11(3A): for £758 substitute £417; regulation 11(3A): for £9,100 substitute £5,000
+- **employment.ni.class1.upper_earnings_limit** = weekly=£967.00, monthly=£4,189.00, annual=£50,270.00 (from 2021-04-06, corroborated)
+  - source: `uksi/2021/157` — regulation 10: for £962 substitute £967; regulation 11(2A): for £4,167 substitute £4,189; regulation 11(2A): for £50,000 substitute £50,270
+- **employment.ni.class1.ust** = weekly=£967.00, monthly=£4,189.00, annual=£50,270.00 (from 2021-04-06, corroborated)
+  - source: `uksi/2021/157` — regulation 10: for £962 substitute £967; regulation 11(3B): for £4,167 substitute £4,189; regulation 11(3B): for £50,000 substitute £50,270
+- **employment.ni.class1.veterans_ust** = weekly=£967.00, monthly=£4,189.00, annual=£50,270.00 (from 2021-04-06, corroborated)
+- **employment.ni.class1a_1b_rate** = 15% (from 2025-04-06, derivation_verified)
+- **employment.ni.class2.flat_rate** = £3.65 (from 2026-04-06, corroborated)
+  - source: `uksi/2026/231` — section 11: for £3.50 substitute £3.65
+- **employment.ni.class2.small_profits_threshold** = £7,105.00 (from 2026-04-06, corroborated)
+  - source: `uksi/2026/231` — section 11: for £6,845 substitute £7,105
+- **employment.ni.class3.voluntary_rate** = £18.40 (from 2026-04-06, corroborated)
+  - source: `uksi/2026/231` — section 13(1): for £17.75 substitute £18.40
+- **employment.ni.class4.additional_rate** = 2% (from 2011-04-06, corroborated)
+- **employment.ni.class4.lower_profits_limit** = £12,570.00 (from 2023-04-06, corroborated)
+  - source: `ukpga/2022/16` — section 15(3)(a) of the Social Security Contributions and Benefits Act 1992: for £11,908 substitute £12,570
+- **employment.ni.class4.main_rate** = 6% (from 2024-04-06, corroborated)
+- **employment.ni.class4.upper_profits_limit** = £50,270.00 (from 2021-04-06, corroborated)
+  - source: `uksi/2021/157` — section 15(3): for £50,000 substitute £50,270
+- **employment.ni_rights.guarantee_pay_daily_rate** = £41.00 (from 2026-04-06, single_source_A)
+  - source: `nisr/2026/57` — 3. | Article 63(1) of the 1996 Order | £39 -> £41
+- **employment.ni_rights.max_basic_redundancy_award** = £23,490.00 (from 2026-04-06, derivation_verified)
+- **employment.ni_rights.min_basic_award** = £9,512.00 (from 2026-04-06, single_source_A)
+  - source: `nisr/2026/57` — 5. | Article 154(1) of the 1996 Order | £9,102 -> £9,512
+- **employment.ni_rights.unfair_dismissal_compensatory_cap** = £123,785.00 (from 2026-04-06, single_source_A)
+  - source: `nisr/2026/57` — 6. | Article 158(1) of the 1996 Order | £118,455 -> £123,785
+- **employment.ni_rights.union_expulsion_min_award** = £14,265.00 (from 2026-04-06, single_source_A)
+  - source: `nisr/2026/57` — 1. | Article 40(6) of the 1995 Order | £13,651 -> £14,265
+- **employment.ni_rights.unlawful_inducement_award** = £6,290.00 (from 2026-04-06, single_source_A)
+  - source: `nisr/2026/57` — 4. | Article 77E(3) of the 1996 Order | £6,019 -> £6,290
+- **employment.ni_rights.weeks_pay_cap** = £783.00 (from 2026-04-06, single_source_A)
+  - source: `nisr/2026/57` — 2. | Article 23(1) of the 1996 Order | £749 -> £783
+- **employment.nmw.enforcement_penalty_max_per_worker** = £20,000.00 (from 2026-04-07, single_source_A)
+- **employment.nmw.enforcement_penalty_min** = £100.00 (from 2026-04-07, single_source_A)
+- **employment.nmw.enforcement_penalty_pct** = 200% (from 2026-04-07, single_source_A)
+- **employment.pension.ae.earnings_trigger** = £10,000.00 (from 2014-04-06, corroborated)
+  - source: `uksi/2014/623` — section 3(1)(c): for £9,440 substitute £10,000
+- **employment.pension.ae.min_employer_contribution** = 3% (from 2019-04-06, corroborated)
+- **employment.pension.ae.min_total_contribution** = 8% (from 2019-04-06, corroborated)
+- **employment.pension.ae.qualifying_earnings_lower** = £6,240.00 (from 2020-04-06, corroborated)
+  - source: `uksi/2020/372` — section 13(1): for £6,136 substitute £6,240
+- **employment.pension.ae.qualifying_earnings_upper** = £50,270.00 (from 2021-04-06, corroborated)
+  - source: `uksi/2021/314` — section 13(1): for £50,000 substitute £50,270
+- **employment.redundancy.age_multiplier.22_to_40** = 1.0 (from 1996-08-22, corroborated)
+- **employment.redundancy.age_multiplier.41_and_over** = 1.5 (from 1996-08-22, corroborated)
+- **employment.redundancy.age_multiplier.under_22** = 0.5 (from 1996-08-22, corroborated)
+- **employment.rpi.all_items** = [2022-03-01, 2022-04-01) -> index=323.5 | [2022-04-01, 2022-05-01) -> index=334.6 | [2022-05-01, 2022-06-01) -> index=337.1 | [2022-06-01, 2022-07-01) -> index=340.0 | [2022-07-01, 2022-08-01) -> index=343.2 | [2022-08-01, 2022-09-01) -> index=345.2 | [2022-09-01, 2022-10-01) -> index=347.6 | [2022-10-01, 2022-11-01) -> index=356.2 | [2022-11-01, 2022-12-01) -> index=358.3 | [2022-12-01, 2023-01-01) -> index=360.4 | [2023-01-01, 2023-02-01) -> index=360.3 | [2023-02-01, 2023-03-01) -> index=364.5 | [2023-03-01, 2023-04-01) -> index=367.2 | [2023-04-01, 2023-05-01) -> index=372.8 | [2023-05-01, 2023-06-01) -> index=375.3 | [2023-06-01, 2023-07-01) -> index=376.4 | [2023-07-01, 2023-08-01) -> index=374.2 | [2023-08-01, 2023-09-01) -> index=376.6 | [2023-09-01, 2023-10-01) -> index=378.4 | [2023-10-01, 2023-11-01) -> index=377.8 | [2023-11-01, 2023-12-01) -> index=377.3 | [2023-12-01, 2024-01-01) -> index=379.0 | [2024-01-01, 2024-02-01) -> index=378.0 | [2024-02-01, 2024-03-01) -> index=381.0 | [2024-03-01, 2024-04-01) -> index=383.0 | [2024-04-01, 2024-05-01) -> index=385.0 | [2024-05-01, 2024-06-01) -> index=386.4 | [2024-06-01, 2024-07-01) -> index=387.3 | [2024-07-01, 2024-08-01) -> index=387.5 | [2024-08-01, 2024-09-01) -> index=389.9 | [2024-09-01, 2024-10-01) -> index=388.6 | [2024-10-01, 2024-11-01) -> index=390.7 | [2024-11-01, 2024-12-01) -> index=390.9 | [2024-12-01, 2025-01-01) -> index=392.1 | [2025-01-01, 2025-02-01) -> index=391.7 | [2025-02-01, 2025-03-01) -> index=394.0 | [2025-03-01, 2025-04-01) -> index=395.3 | [2025-04-01, 2025-05-01) -> index=402.2 | [2025-05-01, 2025-06-01) -> index=402.9 | [2025-06-01, 2025-07-01) -> index=404.5 | [2025-07-01, 2025-08-01) -> index=406.2 | [2025-08-01, 2025-09-01) -> index=407.7 | [2025-09-01, 2025-10-01) -> index=406.1 | [2025-10-01, 2025-11-01) -> index=407.4 | [2025-11-01, 2025-12-01) -> index=405.6 | [2025-12-01, 2026-01-01) -> index=408.5 | [2026-01-01, 2026-02-01) -> index=406.4 | [2026-02-01, 2026-03-01) -> index=408.2 | [2026-03-01, 2026-04-01) -> index=411.4 | [2026-04-01, 2026-05-01) -> index=414.4 | [2026-05-01, 2026-06-01) -> index=415.3 | [2026-06-01, 2026-07-01) -> index=416.5 | [2026-07-01, 2026-08-01) -> index=419.1 (from 2026-08-19, single_source_A)
+- **employment.sap.continuous_employment_weeks** = 26 (from 2002-12-08, corroborated)
+- **employment.sap.paid_weeks** = 39 (from 2006-10-01, corroborated)
+  - source: `uksi/2006/2236` — regulation 21: for 26 substitute 39
+- **employment.shpp.max_weeks** = 37 (from 2015-04-05, derivation_verified)
+- **employment.smp.continuous_employment_weeks** = 26 (from 1992-07-01, corroborated)
+- **employment.smp.paid_leave_weeks** = 39 (from 2006-10-01, corroborated)
+- **employment.sncp.continuous_employment_weeks** = 26 (from 2025-01-17, corroborated)
+- **employment.sncp.max_weeks** = 12 (from 2025-04-06, corroborated)
+- **employment.sncp.weekly_rate** = £194.32 (from 2026-04-06, corroborated)
+  - source: `uksi/2026/148` — regulation 25(1)(a) of the Statutory Neonatal Care Pay (General) Regulations 2025: for £187.18 substitute £194.32
+- **employment.spbp.continuous_employment_weeks** = 26 (from 2020-01-18, corroborated)
+- **employment.spbp.weeks** = 2 (from 2020-04-06, corroborated)
+- **employment.spp.continuous_employment_weeks** = 26 (from 2002-12-08, corroborated)
+- **employment.spp.weeks** = 2 (from 2002-12-08, corroborated)
+- **employment.ssp.awe_percentage** = 80% (from 2026-04-06, corroborated)
+- **employment.ssp.daily_rates** = 1 -> daily_rate=123.25 | 2 -> daily_rate=61.625 | 3 -> daily_rate=41.0833 | 4 -> daily_rate=30.8125 | 5 -> daily_rate=24.65 | 6 -> daily_rate=20.5417 | 7 -> daily_rate=17.6071 (from 2026-04-06, derivation_verified)
+- **employment.ssp.max_weeks** = 28 (from 1992-07-01, corroborated)
+- **employment.ssp.piw_linking_weeks** = 8 (from 1992-07-01, corroborated)
+- **employment.statutory_payments.kit_days** = 10 (from 2006-10-01, corroborated)
+- **employment.statutory_payments.recovery_rate_small** = 109% (from 2026-04-06, derivation_verified)
+- **employment.statutory_payments.recovery_rate_standard** = 92% (from 2003-04-06, corroborated)
+- **employment.statutory_payments.small_employer_additional_rate** = 9% (from 2026-04-06, single_source_A)
+  - source: `uksi/2026/201` — regulation 3 of the Statutory Maternity Pay (Compensation of Employers) and Miscellaneous Amendment Regulations 1994: for 8.5 per cent. substitute 9 per cent.
+- **employment.statutory_payments.small_employer_threshold** = £45,000.00 (from 2004-04-06, corroborated)
+  - source: `uksi/2004/698` — regulation 2(1) of the Statutory Maternity Pay (Compensation of Employers) and Miscellaneous Amendment Regulations 1994: for £40,000 substitute £45,000
+- **employment.statutory_payments.split_days** = 20 (from 2014-12-01, corroborated)
+- **employment.student_loan.plan1.threshold** = £26,900.00 (from 2026-04-06, derivation_verified)
+- **employment.student_loan.plan2.threshold** = £29,385.00 (from 2026-04-06, derivation_verified)
+- **employment.student_loan.plan5.threshold** = £25,000.00 (from 2026-04-06, corroborated)
+  - source: `uksi/2022/1335` — Schedule 1A paragraph 5(1): inserted, stating £25,000
+- **employment.student_loan.postgraduate.rate** = 6% (from 2017-09-05, corroborated)
+- **employment.student_loan.postgraduate.threshold** = £21,000.00 (from 2023-04-06, corroborated)
+  - source: `uksi/2022/1335` — Schedule 1A paragraph 3: inserted, stating £21,000
+- **employment.student_loan.rate** = 9% (from 2017-09-05, corroborated)
+- **employment.student_loan.repayment_threshold_variable** = 1.032 (from 2026-04-06, derivation_verified)
+- **employment.tax.blind_persons_allowance** = £3,250.00 (from 2026-04-06, corroborated)
+  - source: `uksi/2026/38` — section 38(1): for £3,130 substitute £3,250
+- **employment.tax.marriage_allowance** = £1,260.00 (from 2021-04-06, derivation_verified)
+- **employment.tax.pa_taper_rate** = 0.5 (from 2010-04-06, corroborated)
+- **employment.tax.pa_taper_threshold** = £100,000.00 (from 2010-04-06, corroborated)
+- **employment.tax.personal_allowance** = £12,570.00 (from 2021-04-06, corroborated)
+  - source: `uksi/2021/111` — section 35(1): the amount specified is replaced with £12,570
+- **employment.tax.scotland.bands** = [None, £3,967.00) -> band=starter, rate=19% | [£3,967.00, £16,956.00) -> band=basic, rate=20% | [£16,956.00, £31,092.00) -> band=intermediate, rate=21% | [£31,092.00, £62,430.00) -> band=higher, rate=42% | [£62,430.00, £125,140.00) -> band=advanced, rate=45% | [£125,140.00, ∞) -> band=top, rate=48% (from 2026-04-06, corroborated)
+- **employment.tax.wales.writ** = basic -> rate=£0.10 | higher -> rate=£0.10 | additional -> rate=£0.10 (from 2026-04-06, corroborated)
+- **employment.termination.sporting_testimonial_threshold** = £100,000.00 (from 2015-11-25, single_source_A)
+- **employment.termination.tax_free_threshold** = £30,000.00 (from 2003-04-06, corroborated)
+- **employment.tribunal.flexible_working_award** = 8 (from 2014-06-30, single_source_A)
+- **employment.tribunal.flexible_working_award_cash** = £6,008.00 (from 2026-04-06, derivation_verified)
+- **employment.tribunal.protective_award** = 180 (from 2026-04-06, single_source_A)
+- **employment.tribunal.right_to_be_accompanied_award** = 2 (from 2026-04-06, single_source_A)
+- **employment.tribunal.right_to_be_accompanied_award_cash** = £1,502.00 (from 2026-04-06, derivation_verified)
+- **employment.tribunal.tupe_inform_consult_award** = 13 (from 2006-04-06, single_source_A)
+- **employment.tribunal.written_particulars_award** = 2..4 (from 2004-10-01, corroborated)
+- **employment.tribunal.written_particulars_award_cash_max** = £3,004.00 (from 2026-04-06, derivation_verified)
+- **employment.tribunal.written_particulars_award_cash_min** = £1,502.00 (from 2026-04-06, derivation_verified)
+- **employment.working_time.additional_annual_leave_weeks** = 1.6 (from 2009-04-01, corroborated)
+- **employment.working_time.annual_leave_days_cap** = 28 (from 2007-10-01, corroborated)
+- **employment.working_time.annual_leave_weeks** = 4 (from 2001-10-25, corroborated)
+- **employment.working_time.holiday_reference_period_weeks** = 52 (from 2020-04-06, corroborated)
+- **employment.working_time.irregular_hours_accrual_pct** = 12.07% (from 2024-04-01, corroborated)
+- **employment.working_time.max_weekly_hours** = 48 (from 1998-10-01, single_source_A)
+- **employment.working_time.night_work_limit_hours** = 8 (from 1998-10-01, single_source_A)
+- **employment.working_time.rest_break_minutes** = 20 (from 1998-10-01, single_source_A)
+- **employment.working_time.rest_period_daily_hours** = 11 (from 1998-10-01, single_source_A)
+- **employment.working_time.rest_period_weekly_hours** = 24 (from 1998-10-01, single_source_A)
+- **employment.working_time.total_annual_leave_weeks** = 5.6 (from 2009-04-01, derivation_verified)
+- **employment.working_time.young_worker.max_daily_hours** = 8 (from 2003-04-06, single_source_A)
+- **employment.working_time.young_worker.max_weekly_hours** = 40 (from 2003-04-06, single_source_A)
+- **employment.working_time.young_worker.rest_break_minutes** = 30 (from 1998-10-01, single_source_A)
+- **employment.working_time.young_worker.rest_period_daily_hours** = 12 (from 1998-10-01, single_source_A)
+- **employment.working_time.young_worker.rest_period_weekly_hours** = 48 (from 1998-10-01, single_source_A)
+
+## Removed figures (0)
+
+## Changed figures (5)
+- **employment.notice.employer_minimum**: band=1 month to 2 years' service, notice_weeks=1 | band=2 to 12 years' service, notice_weeks=1 per complete year | band=12+ years' service, notice_weeks=12 (1996-08-22, corroborated) -> [1, 24) -> notice_weeks=1 | [24, 36) -> notice_weeks=2 | [36, 48) -> notice_weeks=3 | [48, 60) -> notice_weeks=4 | [60, 72) -> notice_weeks=5 | [72, 84) -> notice_weeks=6 | [84, 96) -> notice_weeks=7 | [96, 108) -> notice_weeks=8 | [108, 120) -> notice_weeks=9 | [120, 132) -> notice_weeks=10 | [132, 144) -> notice_weeks=11 | [144, ∞) -> notice_weeks=12 (1996-08-22, corroborated)
+- **employment.tribunal.vento_bands**: band=lower, from=1300, to=12600, desc=less serious cases | band=middle, from=12600, to=37700, desc=cases not meriting the upper band | band=upper, from=37700, to=62900, desc=most serious; exceptional cases may exceed £62,900 (2026-04-06, corroborated-secondary-B) -> lower -> award_range=£1,300.00..£12,600.00, note=less serious cases | middle -> award_range=£12,600.00..£37,700.00, note=cases not meriting the upper band | upper -> award_range=£37,700.00..£62,900.00, note=most serious; exceptional cases may exceed £62,900 (2026-04-06, corroborated-secondary-B)
+- **employment.unfair_dismissal.additional_award_range**: band=additional_award, min_weeks=26, max_weeks=52 (1999-10-25, single_source_A) -> 26..52 (1999-10-25, single_source_A)
+- **employment.unfair_dismissal.compensatory_cap**: £123,543.00 (2026-04-06, corroborated) -> £123,543.00 (2026-04-06, single_source_A)
+  - source: `uksi/2026/310` — Section 124(1ZA)(a) of the 1996 Act | Limit on amount of compensatory award for unfair dismissal. | £118,223 -> £123,543; ends 2026-12-31: ukpga/2025/36/section/25 section-25-3 "3 Omit section 124 (limit of compensatory award etc)." (sha256:d127f368f7b24d5c89db3d0292c211e7e30b16064241d71062e43deebd70f1b4); in force 2027-01-01 by uksi/2026/559 regulation-3 "3 The following provisions of the 2025 Act come into force on 1st January 2027, subject to the transitional and saving provisions in regulation 4- a section 25, to the extent not already in force; b Schedule 3 (minor and consequential amendments relating to section 25), to the extent not already in force." (sha256:ea8734a88232cf76a76e119e2004c139f782fdda047f192be1aeef87cf50a7c7)
+- **employment.unfair_dismissal.min_basic_award**: £9,157.00 (2026-04-06, corroborated) -> £9,157.00 (2026-04-06, single_source_A)
+  - source: `uksi/2026/310` — Section 120(1) of the 1996 Act | Minimum amount of basic award of compensation where dismissal is unfair by virtue of section 100(1)(a) or (b), 101A(d), 102(1) or 103 of the 1996 Act. | £8,763 -> £9,157
+
+## Unchanged: 26 figures
+
+
+## Freshness from authoring receipts (173 values)
+
+These role groups have no entry in `corpus/freshness.json`, so their date is the newest `retrieved` among that value's receipts of that role — the bytes were read at authoring, and that is a verification with a date. Per group: administering_authority 6, guidance 33, judicial_guidance 1, legislation 134, resolution 1.
+- **employment.guarantee_pay.daily_rate** @ 2025-04-06 — freshness from authoring receipt: legislation
+- **employment.guarantee_pay.daily_rate** @ 2024-04-06 — freshness from authoring receipt: legislation
+- **employment.guarantee_pay.daily_rate** @ 2023-04-06 — freshness from authoring receipt: legislation
+- **employment.guarantee_pay.daily_rate** @ 2022-04-06 — freshness from authoring receipt: legislation
+- **employment.guarantee_pay.daily_rate** @ 2021-04-06 — freshness from authoring receipt: legislation
+- **employment.guarantee_pay.daily_rate** @ 2020-04-06 — freshness from authoring receipt: legislation
+- **employment.guarantee_pay.daily_rate** @ 2019-04-06 — freshness from authoring receipt: legislation
+- **employment.guarantee_pay.daily_rate** @ 2018-04-06 — freshness from authoring receipt: legislation
+- **employment.guarantee_pay.daily_rate** @ 2017-04-06 — freshness from authoring receipt: legislation
+- **employment.guarantee_pay.daily_rate** @ 2016-04-06 — freshness from authoring receipt: legislation
+- **employment.leave.adoption.additional_weeks** @ 2003-04-06 — freshness from authoring receipt: guidance
+- **employment.leave.adoption.ordinary_weeks** @ 2003-04-06 — freshness from authoring receipt: guidance
+- **employment.leave.compulsory_maternity_weeks** @ 2000-04-30 — freshness from authoring receipt: guidance
+- **employment.leave.maternity.additional_weeks** @ 2003-04-06 — freshness from authoring receipt: guidance
+- **employment.leave.maternity.ordinary_weeks** @ 2003-04-06 — freshness from authoring receipt: legislation
+- **employment.leave.maternity.ordinary_weeks** @ 2000-04-30 — freshness from authoring receipt: legislation
+- **employment.leave.neonatal_care_weeks** @ 2025-04-06 — freshness from authoring receipt: guidance
+- **employment.leave.paternity_weeks** @ 2024-04-07 — freshness from authoring receipt: guidance
+- **employment.leave.redundancy_protection_months** @ 2024-04-06 — freshness from authoring receipt: guidance
+- **employment.leave.spl.total_weeks** @ 2015-04-05 — freshness from authoring receipt: guidance
+- **employment.mileage.afr** @ 2026-09-01 — freshness from authoring receipt: administering_authority
+- **employment.mileage.afr** @ 2026-06-01 — freshness from authoring receipt: administering_authority, guidance
+- **employment.mileage.afr** @ 2026-03-01 — freshness from authoring receipt: administering_authority
+- **employment.mileage.afr** @ 2025-12-01 — freshness from authoring receipt: administering_authority
+- **employment.mileage.afr** @ 2025-09-01 — freshness from authoring receipt: administering_authority
+- **employment.ni.category_letter_matrix** @ 2026-04-06 — freshness from authoring receipt: administering_authority
+- **employment.ni.class1.employee_additional_rate** @ 2011-04-06 — freshness from authoring receipt: legislation
+- **employment.ni.class1.married_women_reduced_rate** @ unknown-pending-backfill — freshness from authoring receipt: legislation
+- **employment.ni.class4.additional_rate** @ 2011-04-06 — freshness from authoring receipt: legislation
+- **employment.ni.class4.lower_profits_limit** @ unknown-pending-backfill — freshness from authoring receipt: legislation
+- **employment.ni.class4.upper_profits_limit** @ unknown-pending-backfill — freshness from authoring receipt: legislation
+- **employment.ni_rights.guarantee_pay_daily_rate** @ unknown-pending-backfill — freshness from authoring receipt: legislation
+- **employment.ni_rights.min_basic_award** @ unknown-pending-backfill — freshness from authoring receipt: legislation
+- **employment.ni_rights.unfair_dismissal_compensatory_cap** @ unknown-pending-backfill — freshness from authoring receipt: legislation
+- **employment.ni_rights.union_expulsion_min_award** @ unknown-pending-backfill — freshness from authoring receipt: legislation
+- **employment.ni_rights.unlawful_inducement_award** @ unknown-pending-backfill — freshness from authoring receipt: legislation
+- **employment.ni_rights.weeks_pay_cap** @ unknown-pending-backfill — freshness from authoring receipt: legislation
+- **employment.nmw.accommodation_offset** @ 2025-04-01 — freshness from authoring receipt: legislation
+- **employment.nmw.accommodation_offset** @ 2024-04-01 — freshness from authoring receipt: legislation
+- **employment.nmw.accommodation_offset** @ 2023-04-01 — freshness from authoring receipt: legislation
+- **employment.nmw.accommodation_offset** @ 2022-04-01 — freshness from authoring receipt: legislation
+- **employment.nmw.accommodation_offset** @ 2021-04-01 — freshness from authoring receipt: legislation
+- **employment.nmw.accommodation_offset** @ 2020-04-01 — freshness from authoring receipt: legislation
+- **employment.nmw.accommodation_offset** @ 2019-04-01 — freshness from authoring receipt: legislation
+- **employment.nmw.accommodation_offset** @ 2018-04-01 — freshness from authoring receipt: legislation
+- **employment.nmw.accommodation_offset** @ 2017-04-01 — freshness from authoring receipt: legislation
+- **employment.nmw.accommodation_offset** @ 2016-10-01 — freshness from authoring receipt: legislation
+- **employment.nmw.accommodation_offset** @ 2016-04-01 — freshness from authoring receipt: legislation
+- **employment.nmw.apprentice** @ 2025-04-01 — freshness from authoring receipt: legislation
+- **employment.nmw.apprentice** @ 2024-04-01 — freshness from authoring receipt: legislation
+- **employment.nmw.apprentice** @ 2023-04-01 — freshness from authoring receipt: legislation
+- **employment.nmw.apprentice** @ 2022-04-01 — freshness from authoring receipt: legislation
+- **employment.nmw.apprentice** @ 2021-04-01 — freshness from authoring receipt: legislation
+- **employment.nmw.apprentice** @ 2020-04-01 — freshness from authoring receipt: legislation
+- **employment.nmw.apprentice** @ 2019-04-01 — freshness from authoring receipt: legislation
+- **employment.nmw.apprentice** @ 2018-04-01 — freshness from authoring receipt: legislation
+- **employment.nmw.apprentice** @ 2017-04-01 — freshness from authoring receipt: legislation
+- **employment.nmw.apprentice** @ 2016-10-01 — freshness from authoring receipt: legislation
+- **employment.nmw.apprentice** @ 2016-04-01 — freshness from authoring receipt: legislation
+- **employment.nmw.band_16_17** @ 2025-04-01 — freshness from authoring receipt: legislation
+- **employment.nmw.band_16_17** @ 2024-04-01 — freshness from authoring receipt: legislation
+- **employment.nmw.band_16_17** @ 2023-04-01 — freshness from authoring receipt: legislation
+- **employment.nmw.band_16_17** @ 2022-04-01 — freshness from authoring receipt: legislation
+- **employment.nmw.band_16_17** @ 2021-04-01 — freshness from authoring receipt: legislation
+- **employment.nmw.band_16_17** @ 2020-04-01 — freshness from authoring receipt: legislation
+- **employment.nmw.band_16_17** @ 2019-04-01 — freshness from authoring receipt: legislation
+- **employment.nmw.band_16_17** @ 2018-04-01 — freshness from authoring receipt: legislation
+- **employment.nmw.band_16_17** @ 2017-04-01 — freshness from authoring receipt: legislation
+- **employment.nmw.band_16_17** @ 2016-10-01 — freshness from authoring receipt: legislation
+- **employment.nmw.band_16_17** @ 2016-04-01 — freshness from authoring receipt: legislation
+- **employment.nmw.band_18_20** @ 2025-04-01 — freshness from authoring receipt: legislation
+- **employment.nmw.band_18_20** @ 2024-04-01 — freshness from authoring receipt: legislation
+- **employment.nmw.band_18_20** @ 2023-04-01 — freshness from authoring receipt: legislation
+- **employment.nmw.band_18_20** @ 2022-04-01 — freshness from authoring receipt: legislation
+- **employment.nmw.band_18_20** @ 2021-04-01 — freshness from authoring receipt: legislation
+- **employment.nmw.band_18_20** @ 2020-04-01 — freshness from authoring receipt: legislation
+- **employment.nmw.band_18_20** @ 2019-04-01 — freshness from authoring receipt: legislation
+- **employment.nmw.band_18_20** @ 2018-04-01 — freshness from authoring receipt: legislation
+- **employment.nmw.band_18_20** @ 2017-04-01 — freshness from authoring receipt: legislation
+- **employment.nmw.band_18_20** @ 2016-10-01 — freshness from authoring receipt: legislation
+- **employment.nmw.band_18_20** @ 2016-04-01 — freshness from authoring receipt: legislation
+- **employment.nmw.band_21_22** @ 2023-04-01 — freshness from authoring receipt: legislation
+- **employment.nmw.band_21_22** @ 2022-04-01 — freshness from authoring receipt: legislation
+- **employment.nmw.band_21_22** @ 2021-04-01 — freshness from authoring receipt: legislation
+- **employment.nmw.band_21_22** @ 2020-04-01 — freshness from authoring receipt: legislation
+- **employment.nmw.band_21_22** @ 2019-04-01 — freshness from authoring receipt: legislation
+- **employment.nmw.band_21_22** @ 2018-04-01 — freshness from authoring receipt: legislation
+- **employment.nmw.band_21_22** @ 2017-04-01 — freshness from authoring receipt: legislation
+- **employment.nmw.band_21_22** @ 2016-10-01 — freshness from authoring receipt: legislation
+- **employment.nmw.band_21_22** @ 2016-04-01 — freshness from authoring receipt: legislation
+- **employment.nmw.nlw_21_over** @ 2025-04-01 — freshness from authoring receipt: legislation
+- **employment.nmw.nlw_21_over** @ 2024-04-01 — freshness from authoring receipt: legislation
+- **employment.nmw.nlw_21_over** @ 2023-04-01 — freshness from authoring receipt: legislation
+- **employment.nmw.nlw_21_over** @ 2022-04-01 — freshness from authoring receipt: legislation
+- **employment.nmw.nlw_21_over** @ 2021-04-01 — freshness from authoring receipt: legislation
+- **employment.nmw.nlw_21_over** @ 2020-04-01 — freshness from authoring receipt: legislation
+- **employment.nmw.nlw_21_over** @ 2019-04-01 — freshness from authoring receipt: legislation
+- **employment.nmw.nlw_21_over** @ 2018-04-01 — freshness from authoring receipt: legislation
+- **employment.nmw.nlw_21_over** @ 2017-04-01 — freshness from authoring receipt: legislation
+- **employment.nmw.nlw_21_over** @ 2016-04-01 — freshness from authoring receipt: legislation
+- **employment.pbp.weekly_rate** @ unknown-pending-backfill — freshness from authoring receipt: legislation
+- **employment.pension.ae.earnings_trigger** @ unknown-pending-backfill — freshness from authoring receipt: legislation
+- **employment.pension.ae.qualifying_earnings_lower** @ unknown-pending-backfill — freshness from authoring receipt: legislation
+- **employment.pension.ae.qualifying_earnings_upper** @ unknown-pending-backfill — freshness from authoring receipt: legislation
+- **employment.redundancy.weekly_pay_cap** @ 2025-04-06 — freshness from authoring receipt: legislation
+- **employment.redundancy.weekly_pay_cap** @ 2024-04-06 — freshness from authoring receipt: legislation
+- **employment.redundancy.weekly_pay_cap** @ 2023-04-06 — freshness from authoring receipt: legislation
+- **employment.redundancy.weekly_pay_cap** @ 2022-04-06 — freshness from authoring receipt: legislation
+- **employment.redundancy.weekly_pay_cap** @ 2021-04-06 — freshness from authoring receipt: legislation
+- **employment.redundancy.weekly_pay_cap** @ 2020-04-06 — freshness from authoring receipt: legislation
+- **employment.redundancy.weekly_pay_cap** @ 2019-04-06 — freshness from authoring receipt: legislation
+- **employment.redundancy.weekly_pay_cap** @ 2018-04-06 — freshness from authoring receipt: legislation
+- **employment.redundancy.weekly_pay_cap** @ 2017-04-06 — freshness from authoring receipt: legislation
+- **employment.redundancy.weekly_pay_cap** @ 2016-04-06 — freshness from authoring receipt: legislation
+- **employment.sap.paid_weeks** @ 2006-10-01 — freshness from authoring receipt: legislation
+- **employment.sap.paid_weeks** @ 2002-12-08 — freshness from authoring receipt: legislation
+- **employment.smp.weekly_rate** @ 2025-04-06 — freshness from authoring receipt: guidance
+- **employment.smp.weekly_rate** @ 2024-04-07 — freshness from authoring receipt: guidance
+- **employment.smp.weekly_rate** @ 2023-04-02 — freshness from authoring receipt: guidance
+- **employment.smp.weekly_rate** @ 2022-04-03 — freshness from authoring receipt: guidance
+- **employment.smp.weekly_rate** @ 2021-04-04 — freshness from authoring receipt: guidance
+- **employment.smp.weekly_rate** @ 2020-04-06 — freshness from authoring receipt: guidance
+- **employment.smp.weekly_rate** @ 2019-04-07 — freshness from authoring receipt: guidance
+- **employment.smp.weekly_rate** @ 2018-04-06 — freshness from authoring receipt: guidance
+- **employment.smp.weekly_rate** @ 2017-04-06 — freshness from authoring receipt: guidance
+- **employment.smp.weekly_rate** @ 2016-04-06 — freshness from authoring receipt: guidance
+- **employment.sncp.weekly_rate** @ 2025-04-06 — freshness from authoring receipt: legislation
+- **employment.spp_shpp_sap.weekly_rate** @ unknown-pending-backfill — freshness from authoring receipt: legislation
+- **employment.ssp.weekly_rate** @ 2025-04-06 — freshness from authoring receipt: guidance
+- **employment.ssp.weekly_rate** @ 2024-04-06 — freshness from authoring receipt: guidance
+- **employment.ssp.weekly_rate** @ 2023-04-06 — freshness from authoring receipt: guidance
+- **employment.ssp.weekly_rate** @ 2022-04-03 — freshness from authoring receipt: guidance
+- **employment.ssp.weekly_rate** @ 2021-04-04 — freshness from authoring receipt: guidance
+- **employment.ssp.weekly_rate** @ 2020-04-06 — freshness from authoring receipt: guidance
+- **employment.ssp.weekly_rate** @ 2019-04-07 — freshness from authoring receipt: guidance
+- **employment.ssp.weekly_rate** @ 2018-04-06 — freshness from authoring receipt: guidance
+- **employment.ssp.weekly_rate** @ 2017-04-06 — freshness from authoring receipt: guidance
+- **employment.ssp.weekly_rate** @ 2016-04-06 — freshness from authoring receipt: guidance
+- **employment.statutory_payments.lower_earnings_limit** @ unknown-pending-backfill — freshness from authoring receipt: legislation
+- **employment.statutory_payments.small_employer_threshold** @ unknown-pending-backfill — freshness from authoring receipt: legislation
+- **employment.student_loan.plan1.threshold** @ 2023-04-06 — freshness from authoring receipt: legislation
+- **employment.student_loan.plan1.threshold** @ 2024-04-06 — freshness from authoring receipt: legislation
+- **employment.student_loan.plan1.threshold** @ 2025-04-06 — freshness from authoring receipt: legislation
+- **employment.student_loan.plan2.threshold** @ 2023-04-06 — freshness from authoring receipt: legislation
+- **employment.student_loan.plan2.threshold** @ 2025-04-06 — freshness from authoring receipt: legislation
+- **employment.student_loan.repayment_threshold_variable** @ 2024-04-06 — freshness from authoring receipt: legislation
+- **employment.student_loan.repayment_threshold_variable** @ 2025-04-06 — freshness from authoring receipt: legislation
+- **employment.tax.blind_persons_allowance** @ unknown-pending-backfill — freshness from authoring receipt: legislation
+- **employment.tax.wales.writ** @ 2026-04-06 — freshness from authoring receipt: guidance, resolution
+- **employment.tribunal.vento_bands** @ 2026-04-06 — freshness from authoring receipt: judicial_guidance
+- **employment.unfair_dismissal.compensatory_cap** @ 2025-04-06 — freshness from authoring receipt: legislation
+- **employment.unfair_dismissal.compensatory_cap** @ 2024-04-06 — freshness from authoring receipt: legislation
+- **employment.unfair_dismissal.compensatory_cap** @ 2023-04-06 — freshness from authoring receipt: legislation
+- **employment.unfair_dismissal.compensatory_cap** @ 2022-04-06 — freshness from authoring receipt: legislation
+- **employment.unfair_dismissal.compensatory_cap** @ 2021-04-06 — freshness from authoring receipt: legislation
+- **employment.unfair_dismissal.compensatory_cap** @ 2020-04-06 — freshness from authoring receipt: legislation
+- **employment.unfair_dismissal.compensatory_cap** @ 2019-04-06 — freshness from authoring receipt: legislation
+- **employment.unfair_dismissal.compensatory_cap** @ 2018-04-06 — freshness from authoring receipt: legislation
+- **employment.unfair_dismissal.compensatory_cap** @ 2017-04-06 — freshness from authoring receipt: legislation
+- **employment.unfair_dismissal.compensatory_cap** @ 2016-04-06 — freshness from authoring receipt: legislation
+- **employment.unfair_dismissal.min_basic_award** @ 2025-04-06 — freshness from authoring receipt: legislation
+- **employment.unfair_dismissal.min_basic_award** @ 2024-04-06 — freshness from authoring receipt: legislation
+- **employment.unfair_dismissal.min_basic_award** @ 2023-04-06 — freshness from authoring receipt: legislation
+- **employment.unfair_dismissal.min_basic_award** @ 2022-04-06 — freshness from authoring receipt: legislation
+- **employment.unfair_dismissal.min_basic_award** @ 2021-04-06 — freshness from authoring receipt: legislation
+- **employment.unfair_dismissal.min_basic_award** @ 2020-04-06 — freshness from authoring receipt: legislation
+- **employment.unfair_dismissal.min_basic_award** @ 2019-04-06 — freshness from authoring receipt: legislation
+- **employment.unfair_dismissal.min_basic_award** @ 2018-04-06 — freshness from authoring receipt: legislation
+- **employment.unfair_dismissal.min_basic_award** @ 2017-04-06 — freshness from authoring receipt: legislation
+- **employment.unfair_dismissal.min_basic_award** @ 2016-04-06 — freshness from authoring receipt: legislation
+- **employment.working_time.additional_annual_leave_weeks** @ 2009-04-01 — freshness from authoring receipt: guidance
+- **employment.working_time.annual_leave_days_cap** @ 2007-10-01 — freshness from authoring receipt: guidance
+- **employment.working_time.holiday_reference_period_weeks** @ 2020-04-06 — freshness from authoring receipt: guidance
+
+## Re-captured since last confirmed (0)
+
+## Derived values dated through their inputs (23)
+A derived value's legislation sources name the PROVISION that makes the formula, and no such page prints the number — so its freshness on the statute side is the freshness of the values it is computed from (D-DF-2). Each line names the inputs and, where one of them is the stalest thing behind the value, the role group whose published date came from an input rather than from this value's own targets.
+- **employment.leave.adoption_weeks** @ 2003-04-06 — reads employment.leave.adoption.ordinary_weeks @ 2003-04-06, employment.leave.adoption.additional_weeks @ 2003-04-06; its own targets are the stalest
+- **employment.leave.maternity_weeks** @ 2003-04-06 — reads employment.leave.maternity.ordinary_weeks @ 2003-04-06, employment.leave.maternity.additional_weeks @ 2003-04-06; dated through its inputs: legislation
+- **employment.leave.spl.max_weeks** @ 2015-04-05 — reads employment.leave.spl.total_weeks @ 2015-04-05, employment.leave.compulsory_maternity_weeks @ 2000-04-30; its own targets are the stalest
+- **employment.ni.class1a_1b_rate** @ 2025-04-06 — reads employment.ni.class1.employer_secondary_rate @ 2025-04-06; its own targets are the stalest
+- **employment.ni_rights.max_basic_redundancy_award** @ 2026-04-06 — reads employment.ni_rights.weeks_pay_cap @ 2026-04-06; its own targets are the stalest
+- **employment.redundancy.max_payment** @ 2026-04-06 — reads employment.redundancy.service_cap_years @ 1996-08-22, employment.redundancy.age_multiplier.41_and_over @ 1996-08-22, employment.redundancy.weekly_pay_cap @ 2026-04-06; its own targets are the stalest
+- **employment.shpp.max_weeks** @ 2015-04-05 — reads employment.smp.paid_leave_weeks @ 2006-10-01, employment.leave.compulsory_maternity_weeks @ 2000-04-30; dated through its inputs: guidance
+- **employment.ssp.daily_rates** @ 2026-04-06 — reads employment.ssp.weekly_rate @ 2026-04-06; its own targets are the stalest
+- **employment.statutory_payments.recovery_rate_small** @ 2026-04-06 — reads employment.statutory_payments.small_employer_additional_rate @ 2026-04-06; its own targets are the stalest
+- **employment.student_loan.plan1.threshold** @ 2024-04-06 — reads employment.student_loan.plan1.threshold @ 2023-04-06, employment.student_loan.repayment_threshold_variable @ 2024-04-06; its own targets are the stalest
+- **employment.student_loan.plan1.threshold** @ 2025-04-06 — reads employment.student_loan.plan1.threshold @ 2024-04-06, employment.student_loan.repayment_threshold_variable @ 2025-04-06; its own targets are the stalest
+- **employment.student_loan.plan1.threshold** @ 2026-04-06 — reads employment.student_loan.plan1.threshold @ 2025-04-06, employment.student_loan.repayment_threshold_variable @ 2026-04-06; dated through its inputs: legislation
+- **employment.student_loan.plan2.threshold** @ 2025-04-06 — reads employment.student_loan.plan2.threshold @ 2023-04-06, employment.student_loan.repayment_threshold_variable @ 2025-04-06; its own targets are the stalest
+- **employment.student_loan.plan2.threshold** @ 2026-04-06 — reads employment.student_loan.plan2.threshold @ 2025-04-06, employment.student_loan.repayment_threshold_variable @ 2026-04-06; dated through its inputs: legislation
+- **employment.student_loan.repayment_threshold_variable** @ 2024-04-06 — reads employment.rpi.all_items @ 2026-08-19; its own targets are the stalest
+- **employment.student_loan.repayment_threshold_variable** @ 2025-04-06 — reads employment.rpi.all_items @ 2026-08-19; its own targets are the stalest
+- **employment.student_loan.repayment_threshold_variable** @ 2026-04-06 — reads employment.rpi.all_items @ 2026-08-19; its own targets are the stalest
+- **employment.tax.marriage_allowance** @ 2021-04-06 — reads employment.tax.personal_allowance @ 2021-04-06; its own targets are the stalest
+- **employment.tribunal.flexible_working_award_cash** @ 2026-04-06 — reads employment.tribunal.flexible_working_award @ 2014-06-30, employment.redundancy.weekly_pay_cap @ 2026-04-06; its own targets are the stalest
+- **employment.tribunal.right_to_be_accompanied_award_cash** @ 2026-04-06 — reads employment.tribunal.right_to_be_accompanied_award @ 2026-04-06, employment.redundancy.weekly_pay_cap @ 2026-04-06; its own targets are the stalest
+- **employment.tribunal.written_particulars_award_cash_max** @ 2026-04-06 — reads employment.tribunal.written_particulars_award @ 2004-10-01, employment.redundancy.weekly_pay_cap @ 2026-04-06; its own targets are the stalest
+- **employment.tribunal.written_particulars_award_cash_min** @ 2026-04-06 — reads employment.tribunal.written_particulars_award @ 2004-10-01, employment.redundancy.weekly_pay_cap @ 2026-04-06; its own targets are the stalest
+- **employment.working_time.total_annual_leave_weeks** @ 2009-04-01 — reads employment.working_time.annual_leave_weeks @ 2001-10-25, employment.working_time.additional_annual_leave_weeks @ 2009-04-01; its own targets are the stalest
+
+## Freshness ledger entries pruned (2)
+The nightly never removes a ledger entry — it cannot tell "not watched tonight" from "gone". The build can, and says so here rather than dropping them silently.
+- employment.tribunal.written_particulars_award@2026-04-06 — value no longer in the corpus; freshness entry pruned (guidance, legislation)
+- employment.working_time.holiday_reference_period_weeks@2024-01-01 — value no longer in the corpus; freshness entry pruned (legislation)
+
+Approve by passing this report's SHA-256 to the release builder (`--approve-diff <hash>`). Any edit to the corpus after generation invalidates the hash.
